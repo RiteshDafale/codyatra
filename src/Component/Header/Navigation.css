@@ -1,0 +1,14 @@
+.hoverA:hover{
+ border:2px solid white;
+ /* margin-left:23px; */
+ /* margin-right:23px; */
+ /* text-decoration: underline; */
+}
+
+.Mainlogo{
+    width: 56px;
+    object-fit: cover;
+    border-radius: 19px;
+}
+
+

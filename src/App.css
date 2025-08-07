@@ -1,0 +1,8 @@
+ .mainBackgroundColor{
+     background: linear-gradient(
+    135deg,          from top-left to bottom-right 
+     #000000 0%,     black 
+     #0c1123 40%,    dark navy blue 
+     #0b1f48 100%    deep royal blue 
+); 
+ } 
