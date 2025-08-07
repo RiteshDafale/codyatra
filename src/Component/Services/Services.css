@@ -1,16 +1,15 @@
 .service-Margin{
     margin-top:60px;
 }
+.development {
+    width:50%;
+}
+.development li {
+   border:2px solid black;
+}
 
 @media only screen and (max-width: 600px){
-   .service_head{
-    /* width:300px; */
-   }
-   .service_desc{
-    /* width:300px; */
-   }
-   .service_content{
-    /* background-color: aqua; */
-    /* width:100%; */
-   }
+   .development {
+    width:100%;
+}
 }

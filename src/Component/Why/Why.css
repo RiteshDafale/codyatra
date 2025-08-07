@@ -1,5 +1,5 @@
 .mTop{
-    margin-top:60px;
+    /* margin-top:5px; */
 }
 .mTop h2{
     color:#5188eae6;;
@@ -9,4 +9,14 @@
     /* border:2px solid black; */
     text-align: start;
     padding:10px;
+}
+
+.orderList{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px){
+    .orderList{
+    width: 100%;
+}
 }
