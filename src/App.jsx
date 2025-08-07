@@ -9,7 +9,7 @@ function App() {
     <div className='mainBackgroundColor' >
       {/* <BrowserRouter> */}
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/codyatra" element={<Home />}></Route>
           {/* <Route path="*" element={<NotFound />} />  */}
         </Routes>
       {/* </BrowserRouter> */}
