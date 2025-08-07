@@ -7,7 +7,7 @@ function Banner() {
         <div className='mainBanner'>
 
 
-            <img src={banner} class="img-fluid" alt="..."></img>
+            <img src={banner} className="img-fluid" alt="..."></img>
 
         </div>
     )

@@ -25,9 +25,9 @@ function Why() {
           <div className='lh-1'>
             <p className='mt-2'>At <span className='fw-bold'>Codyatra </span>, we don’t claim to have 15 years of experience.</p>
             <p className=''>But we do claim this:</p>
-            <ol class="orderList list-group list-group-numbered">
-              <li class="list-group-item border-2 border-dark" >We care more.</li>
-              <li class="list-group-item border-2 border-dark" >We work harder.</li>
+            <ol className="orderList list-group list-group-numbered">
+              <li className="list-group-item border-2 border-dark" >We care more.</li>
+              <li className="list-group-item border-2 border-dark" >We work harder.</li>
             </ol>
             <p className='mt-2'>And we’re more obsessed with your growth than anyone else.</p>
           </div>
@@ -40,10 +40,10 @@ function Why() {
               team that asks why, not just how.</p>
           </div>
           <div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item fs-5">We study your business.</li>
-              <li class="list-group-item fs-5">We understand your audience.</li>
-              <li class="list-group-item fs-5">We design your digital ecosystem — not with shortcuts, but with <span className='fw-bold'> long-term vision</span>.</li>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item fs-5">We study your business.</li>
+              <li className="list-group-item fs-5">We understand your audience.</li>
+              <li className="list-group-item fs-5">We design your digital ecosystem — not with shortcuts, but with <span className='fw-bold'> long-term vision</span>.</li>
             </ul>
           </div>
         </div>
