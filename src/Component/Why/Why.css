@@ -55,7 +55,7 @@ ol li{
 }
 
 
-@media (min-height : 740px) {
+@media (min-height : 645px) {
     .why-mainDiv{
        height:219vh;
     }
