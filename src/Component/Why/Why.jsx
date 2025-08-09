@@ -19,32 +19,35 @@ function Why() {
         <p className='border-dark'>
           In today’s crowded digital space, businesses are not just looking for services — they’re looking for real partners, people who understand their goals, respect their vision, and go beyond the usual to create lasting impact.
         </p>
-        <p className='border-dark'>
+        <p className='border-dark text-center'>
           That’s exactly what <span className='fw-bold'>Codyatra </span> stands for.
         </p>
 
-        <div className='lh-1'>
+        <div className='lh-1 text-center'>
           <p>We’re not here to sell you vanity metrics or empty promises.</p>
           <p>We’re here to build, support, and grow — <span className='fw-bold'>together </span>.</p>
         </div>
 
         {isopen && (
           <>
-            <div className='lh-1'>
+            <div className='lh-1 text-center'>
               <p>Yes, we’re new in the market.</p>
               <p>And we’re proud of it.</p>
               <p>Because being new means we’re hungry. We’re sharp. We’re not stuck in old ways.</p>
               <p>We’re building this agency with <span className='fw-bold'>fresh ideas, deep intention, and bold energy.</span></p>
             </div>
 
-            <div className='lh-1'>
+            <div className='lh-1 text-center'>
               <p>At <span className='fw-bold'>Codyatra </span>, we don’t claim to have 15 years of experience.</p>
               <p>But we do claim this:</p>
+              <div className=' d-flex justify-content-center align-items-center'>
               <ol className="orderList list-group list-group-numbered">
                 <li className="list-group-item border-2 border-dark">We care more.</li>
                 <li className="list-group-item border-2 border-dark">We work harder.</li>
               </ol>
-              <p>And we’re more obsessed with your growth than anyone else.</p>
+
+              </div>
+              <p className='mt-3'>And we’re more obsessed with your growth than anyone else.</p>
             </div>
 
               <div className="strategy">
