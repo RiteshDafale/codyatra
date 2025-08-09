@@ -16,10 +16,14 @@
 
 .why-mainDiv{
     width:100%;
-    height:150vh;    
+    height:141vh;    
 }
 
 p{
+     font-size: 19px;
+}
+
+.unorderList li{
      font-size: 19px;
 }
 
@@ -33,12 +37,42 @@ ol li{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items:center;
-    
+    align-items:center;    
+}
+
+.text-align{
+    text-align: center;
+}
+ .orderList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .orderList ol li{
+   width:25%;
 }
 
 @media only screen and (max-width: 600px){
-    .orderList{
+     .why_subDiv{
+        margin-top: 34px;
+     }
+   .text-align{
+    text-align: start;
+    }
+    .orderList {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .orderList ol li{
+   width:100%;
+}
+
+.line-height{
+    line-height: 24px;
 }
 }
