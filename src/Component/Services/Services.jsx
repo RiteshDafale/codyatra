@@ -4,10 +4,10 @@ import '../Services/Services.css'
 function Services() {
     return (
         <div>
-            <div className='container text-center service-Margin border-top border-2 border-dark p-2'>
+            <div className='container text-center service-Margin p-2'>
                 <div className="service_content">
                     <h2 className='starter_head1 display-5'>Our Services</h2>
-                    <p className='text-start p-2'>
+                    <p className='text-start p-2 fs-5'>
                         We offer result-driven digital marketing services that blend creativity with data to fuel your brand’s growth.
                         From eye-catching campaigns to smart strategies that convert clicks into loyal customers, we’re here to elevate
                         your online presence. Our forward-thinking approach ensures your brand stays ahead in the ever-evolving digital landscape.
@@ -27,8 +27,9 @@ function Services() {
                             <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body border border-3 service_desc text-start">
                                     <ol className="list-group list-group-numbered development">
-                                        <li className="list-group-item fs-5">Custom Business Website (Static & Dynamic)</li>
-                                        <li className="list-group-item fs-5">E-commerce Website (Custom)</li>
+                                        <li className="list-group-item fs-5" role='button'>Custom Business Website (Static & Dynamic)</li>
+                                        {/* <li>Custom Business Website (Static & Dynamic)</li> */}
+                                         <li className="list-group-item fs-5">E-commerce Website (Custom)</li>
                                         <li className="list-group-item fs-5">Landing Pages (Sales, Lead Generation, Event)</li>
                                         <li className="list-group-item fs-5">Blog / Portfolio Websites</li>
                                         <li className="list-group-item fs-5">Web Applications (Progressive Web Apps)</li>

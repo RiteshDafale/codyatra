@@ -12,7 +12,7 @@ function Home() {
       <Banner />
       <Why />
       <Services />
-      {/* <Footer />  */}
+      <Footer /> 
     </div>
   )
 }

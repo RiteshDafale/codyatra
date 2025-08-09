@@ -14,22 +14,22 @@ function Navigation() {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
-                            <li className="nav-item me-2">
+                            <li className="nav-item me-2 ">
                                 <a className="nav-link text-light hoverA " aria-current="page" href="#">Home</a>
                             </li>
-                            <li className="nav-item mx-2">
+                            <li className="nav-item me-2 ">
                                 <a className="nav-link text-light hoverA" href="#">Our Services</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item me-2">
                                 <a className="nav-link text-light hoverA " href="#" >Pricing plan</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item me-2">
                                 <a className="nav-link text-light hoverA " href="#" >Testimonial</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link text-light hoverA " href="#" >Codyatra_Growth</a>
+                            <li className="nav-item me-2">
+                                <a className="nav-link text-light hoverA  " href="#" >Dashboard</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item me-2">
                                 <a className="nav-link text-light hoverA " href="#" >Free Tools</a>
                             </li>
                             <li className="nav-item dropdown ">
@@ -37,7 +37,7 @@ function Navigation() {
                                     About
                                 </a>
                                 <ul className="dropdown-menu  ">
-                                    <li><a className="dropdown-item " href="#">Why Codeyatra</a></li>
+                                    <li><a className="dropdown-item " href="#">Why Codyatra</a></li>
                                     <li><a className="dropdown-item " href="#">About process</a></li>
                                     <li><a className="dropdown-item " href="#">About us</a></li>
                                     <li><a className="dropdown-item " href="#">Founder and co Founder</a></li>
