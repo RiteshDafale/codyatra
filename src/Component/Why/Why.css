@@ -54,6 +54,13 @@ ol li{
    width:25%;
 }
 
+
+@media (min-height : 740px) {
+    .why-mainDiv{
+       height:219vh;
+    }
+}
+
 @media only screen and (max-width: 600px){
      .why_subDiv{
         margin-top: 34px;
