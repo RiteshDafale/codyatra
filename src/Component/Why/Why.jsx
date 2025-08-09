@@ -73,9 +73,12 @@ function Why() {
         )}
 
       
-            <button className='btn btn-primary' onClick={() => setIsopen(!isopen)}>
+      <div className="btn d-flex align-items-center w-100 border justify-content-center">
+
+            <button className='btn btn-primary ' onClick={() => setIsopen(!isopen)}>
               {isopen ? "Read less ..." : "Read more ...."}
             </button>
+      </div>
       </div>
     </div>
     </div>
