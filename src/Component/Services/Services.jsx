@@ -27,15 +27,15 @@ function Services() {
                             <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body border border-3 service_desc text-start">
                                     <ol className="list-group list-group-numbered development">
-                                        <li className="list-group-item fs-5" role='button'>Custom Business Website (Static & Dynamic)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5" role='button'>Custom Business Website (Static & Dynamic)</li>
                                         {/* <li>Custom Business Website (Static & Dynamic)</li> */}
-                                         <li className="list-group-item fs-5">E-commerce Website (Custom)</li>
-                                        <li className="list-group-item fs-5">Landing Pages (Sales, Lead Generation, Event)</li>
-                                        <li className="list-group-item fs-5">Blog / Portfolio Websites</li>
-                                        <li className="list-group-item fs-5">Web Applications (Progressive Web Apps)</li>
-                                        <li className="list-group-item fs-5">Domain + Hosting Setup</li>
-                                        <li className="list-group-item fs-5">Website Maintenance & Support</li>
-                                        <li className="list-group-item fs-5">Website Speed & SEO Optimization</li>
+                                         <li className="list-group-item list-group-item-action list-group-item-success fs-5">E-commerce Website (Custom)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Landing Pages (Sales, Lead Generation, Event)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Blog / Portfolio Websites</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Web Applications (Progressive Web Apps)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Domain + Hosting Setup</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Website Maintenance & Support</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Website Speed & SEO Optimization</li>
                                     </ol>
                                     <div className="morebtn m-3">
                                         <button className='btn btn-success text-light'>Read More</button>
@@ -54,10 +54,10 @@ function Services() {
                             <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body border border-3 service_desc text-start">
                                     <ol className="list-group list-group-numbered development">
-                                        <li className="list-group-item fs-5">Google Ads (Search, Display, YouTube)</li>
-                                        <li className="list-group-item fs-5">Meta Ads (Facebook & Instagram)</li>
-                                        <li className="list-group-item fs-5">LinkedIn Ads (B2B Lead Generation)</li>
-                                        <li className="list-group-item fs-5">Social Media Ads Funnel Strategy</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Google Ads (Search, Display, YouTube)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Meta Ads (Facebook & Instagram)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">LinkedIn Ads (B2B Lead Generation)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Social Media Ads Funnel Strategy</li>
                                     </ol>
                                     <div className="morebtn m-3">
                                         <button className='btn btn-success text-light'>Read More</button>
@@ -77,14 +77,14 @@ function Services() {
                                 <div className="accordion-body service_desc text-start">
                                     <p className='fs-5 m-3 fw-bold text-decoration-underline'>Build an audience. Stay relevant. Stay ahead.</p>
                                     <ol className="list-group list-group-numbered development">
-                                        <li className="list-group-item fs-5">Social Media Strategy & Calendar</li>
-                                        <li className="list-group-item fs-5">Instagram/Facebook/LinkedIn Management</li>
-                                        <li className="list-group-item fs-5">Content Creation (Posts, Reels, Stories)</li>
-                                        <li className="list-group-item fs-5">Hashtag & Caption Strategy</li>
-                                        <li className="list-group-item fs-5">Personal Branding Content</li>
-                                        <li className="list-group-item fs-5">Carousel & Infographic Design</li>
-                                        <li className="list-group-item fs-5">Reels & Shorts Editing</li>
-                                        <li className="list-group-item fs-5">Content Repurposing (for multiple platforms)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Social Media Strategy & Calendar</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Instagram/Facebook/LinkedIn Management</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Content Creation (Posts, Reels, Stories)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Hashtag & Caption Strategy</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Personal Branding Content</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Carousel & Infographic Design</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Reels & Shorts Editing</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Content Repurposing (for multiple platforms)</li>
                                     </ol>
                                     <div className="morebtn m-3">
                                         <button className='btn btn-success text-light'>Read More</button>
@@ -104,10 +104,10 @@ function Services() {
                                 <div className="accordion-body service_desc text-start">
                                     <p className='fs-5 m-3 fw-bold text-decoration-underline'>Visuals that stop the scroll.</p>
                                     <ol className="list-group list-group-numbered development">
-                                        <li className="list-group-item fs-5">Product Photography</li>
-                                        <li className="list-group-item fs-5">Food / Fashion / Fitness Shoots</li>
-                                        <li className="list-group-item fs-5">Short Video Reels</li>
-                                        <li className="list-group-item fs-5">Promo Video Creation</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Product Photography</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Food / Fashion / Fitness Shoots</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Short Video Reels</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Promo Video Creation</li>
                                     </ol>
                                     <div className="morebtn m-3">
                                         <button className='btn btn-success text-light'>Read More</button>
@@ -127,10 +127,10 @@ function Services() {
                                 <div className="accordion-body service_desc text-start">
                                     <p className='fs-5 m-3 fw-bold  text-decoration-underline'>Get a roadmap, not confusion.</p>
                                     <ol className="list-group list-group-numbered development">
-                                        <li className="list-group-item fs-5">Brand Strategy Blueprint</li>
-                                        <li className="list-group-item fs-5">Growth Plan for Startups</li>
-                                        <li className="list-group-item fs-5">Content Plan (30/60/90 days)</li>
-                                        <li className="list-group-item fs-5">Budget Planning for Marketing</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Brand Strategy Blueprint</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Growth Plan for Startups</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Content Plan (30/60/90 days)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Budget Planning for Marketing</li>
                                     </ol>
                                     <div className="morebtn m-3">
                                         <button className='btn btn-success text-light'>Read More</button>
@@ -150,10 +150,10 @@ function Services() {
                                 <div className="accordion-body service_desc text-start">
                                     <p className='fs-5 m-3 fw-bold  text-decoration-underline'>Build trust. Deliver value from Day 1.</p>
                                     <ol className="list-group list-group-numbered development">
-                                        <li className="list-group-item fs-5">Free Business Profile Audit</li>
-                                        <li className="list-group-item fs-5">Free Instagram Optimization Checklist</li>
-                                        <li className="list-group-item fs-5">Free 15-min Strategy Call</li>
-                                        <li className="list-group-item fs-5">1 Free Custom Post/Reel Design (Sample Work)</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Free Business Profile Audit</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Free Instagram Optimization Checklist</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">Free 15-min Strategy Call</li>
+                                        <li className="list-group-item list-group-item-action list-group-item-success fs-5">1 Free Custom Post/Reel Design (Sample Work)</li>
                                     </ol>
                                     <div className="morebtn m-3">
                                         <button className='btn btn-success text-light'>Explore Freebies</button>

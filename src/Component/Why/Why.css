@@ -1,6 +1,6 @@
 
 .mTop h2{
-    color:#5188eae6;;
+    color:#5188eae6;
 }
 
 
@@ -16,15 +16,15 @@
 
 .why-mainDiv{
     width:100%;
-    height:150vh;    
+    height:150vh ;  
 }
 
 p{
-     font-size: 19px;
+    font-size: 19px;
 }
 
 .unorderList li{
-     font-size: 19px;
+    font-size: 19px;
 }
 
 ol li{
@@ -36,7 +36,7 @@ ol li{
     height:100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items:center;    
 }
 
