@@ -5,6 +5,7 @@ import Navigation from './Component/Header/Navigation'
 import './App.css'
 import Footer from './Component/Footer/Footer'
 import About from './Component/About/About'
+import NewWhy from './Component/Why/NewWhy'
 
 function App() {
   // background-color: rgb(25 48 96);
@@ -14,8 +15,9 @@ function App() {
         <Routes>
           <Route path="/codyatra" element={<Home />}></Route>
           <Route path="/codyatra/about" element={<About/>}  />
+          <Route path='/codyatra/Why' element={<NewWhy/>} />
         </Routes>
-  <Footer/>
+  {/* <Footer/> */}
     </div>
   )
 }

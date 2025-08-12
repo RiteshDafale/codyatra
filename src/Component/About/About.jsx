@@ -4,21 +4,21 @@ import '../About/About.css';
 function About() {
   return (
     <div>
-      <div className="container border aboutMainDiv border-5 text-center p-4">
+      <div className="container aboutMainDiv border-5 text-center p-4">
         <h1 className='display-6 fw-bold'>Who We Are &amp; Why We Exist</h1>
         <div>
           <h3 className='mt-4'>Welcome to <span className='Codyatra'>Codyatra </span>— Your Growth Partner in the Digital Journey.</h3>
-          <div className='container '>
-            <p className='mt-3 '>We’re not just another digital agency. We’re a<span className='fw-bold'> mission-driven team </span> of creatives, strategists, developers, and marketers who believe in doing things differently — with <span className='fw-bold'> purpose, honesty, and impact</span>.</p>
+          <div className='container border border-light  '>
+            <p className='mt-3  '>We’re not just another digital agency. We’re a<span className='fw-bold'> mission-driven team </span> of creatives, strategists, developers, and marketers who believe in doing things differently — with <span className='fw-bold'> purpose, honesty, and impact</span>.</p>
             <p><span className='Codyatra'>Codyatra</span> was born with a clear vision:
               To help startups, small businesses, personal brands, and local entrepreneurs<span className='fw-bold'> grow with
                 digital clarity</span>, without falling into the trap of fake promises or confusing jargon.</p>
             <p>In a world flooded with copy-paste marketing, bots, and surface-level design — we stand for
               <span className='fw-bold'> depth, personalization, and long-term value</span>.</p>
           </div>
-          <div className="container">
+          <div className="container  ">
             <h3>Why We Started ?</h3>
-            <div className="container secondHead  ">
+            <div className="container secondHead lh-1 border ">
               <p>We saw a problem.</p>
               <p>Too many businesses were spending money on digital services without truly understanding
                 what they were getting — or worse, getting no results at all.</p>
@@ -27,7 +27,7 @@ function About() {
               <p>So, we decided to create <span className='Codyatra text-decoration-underline'>Something Better , Something Real , Something that actually Cares.</span></p>
               <p>That’s how <span className='Codyatra'>Codyatra  started — a journey (“Yatra”) </span> to bring clarity, creativity, and strategy into the digital lives of modern businesses.</p>
             </div>
-            <div className="container">
+            <div className="container  ">
               <h3>What We Do</h3>
               <div className='container thirdHead text-start'>
                 <p>We help you:</p>
@@ -40,12 +40,12 @@ function About() {
                   <li class="list-group-item border-0"><span className='fw-bold'>Turn your digital presence into real business growth</span></li>
                 </ul>
               </div>
-              <div className="para">
+              <div className="para  ">
                 <p>We offer everything from website & app development, digital marketing, content creation, SEO, branding, social media management, ad campaigns, consulting, and more — all under one roof.</p>
                 <p>But more importantly, <span className='fw-bolder text-decoration-underline'><br />we offer a relationship.<br />A partnership that grows with you. <br />We don’t just take orders — we help you make smart decisions.</span></p>
               </div>
             </div>
-            <div className="container">
+            <div className="container  ">
               <h3>We’re New — And Proud of It.</h3>
               <div className="container forthHead">
                 <p>We’re honest about who we are.<br />

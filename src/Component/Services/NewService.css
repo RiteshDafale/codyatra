@@ -1,0 +1,40 @@
+.mainDiv {
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    /* background-color: chocolate; */
+    width: 33.3% !important;
+    /* Ensure card content is centered */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstDiv img {
+    object-fit: cover;
+    height: 222px;
+}
+
+
+/* Mobile View - Override width to auto */
+@media only screen and (max-width: 600px) {
+    .column {
+        width: 100% !important;
+        margin-top:23px;
+        /* Let it take natural width in mobile view */
+    }
+}
+
+@media (min-height : 645px) {
+    .column {
+        width: 100% !important;
+        margin-top:23px;
+        /* Let it take natural width in mobile view */
+    }
+}

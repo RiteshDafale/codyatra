@@ -1,7 +1,10 @@
 import React, { useState, version } from 'react'
 import './Why.css'
+import {useNavigate } from 'react-router-dom';
 
 function Why() {
+
+  const navigate = useNavigate();
   const paraStyle = {
     WebkitLineClamp: 5,
     WebkitBoxOrient: "vertical",
@@ -10,7 +13,7 @@ function Why() {
   }
   const [isopen, setIsopen] = useState(false);
   return (
-    <div className="container-fluid why-mainDiv mTop" style={isopen ? {height:"fit-content"} : null}>
+    <div className="container-fluid why-mainDiv mTop d-flex" >
       <div className='why_subDiv '>
       <h2 className='text-center headWhy fw-bold display-5'>
         How can <span className='text-dark'>Codyatra </span> help your business grow?
@@ -23,12 +26,12 @@ function Why() {
           That’s exactly what <span className='fw-bold'>Codyatra </span> stands for.
         </p>
 
-        <div className='lh-1 text-align'>
-          <p className='line-height'>We’re not here to sell you vanity metrics or empty promises.</p>
-          <p>We’re here to build, support, and grow — <span className='fw-bold'>together </span>.</p>
+        <div className='lh-1 '>
+          <p className='line-height text-align '>We’re not here to sell you vanity metrics or empty promises.</p>
+          <p className='text-align '>We’re here to build, support, and grow — <span className='fw-bold'>together </span>.</p>
         </div>
 
-        {isopen && (
+        {/* {isopen && (
           <>
             <div className='lh-1 text-align'>
               <p>Yes, we’re new in the market.</p>
@@ -70,13 +73,14 @@ function Why() {
           </div>
         </div>
           </>
-        )}
+        )} */}
 
       
       <div className="btn d-flex align-items-center w-100 border justify-content-center">
 
-            <button className='btn btn-primary ' onClick={() => setIsopen(!isopen)}>
-              {isopen ? "Read less ..." : "Read more ...."}
+            <button className='btn btn-primary '
+             onClick={() => navigate("/codyatra/Why")}>
+              Read more ....
             </button>
       </div>
       </div>

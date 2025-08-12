@@ -4,14 +4,15 @@ import Banner from '../Banner/Banner'
 import Services from '../Services/Services'
 import Why from '../Why/Why'
 import Footer from '../Footer/Footer'
+import NewService from '../Services/NewServices1'
 
 function Home() {
   return (
-    <div>
-    
+    <div>    
       <Banner />
-      <Why />
-      <Services />
+      {/* <Why /> */}
+      {/* <Services /> */}
+      <NewService/>
       
     </div>
   )
