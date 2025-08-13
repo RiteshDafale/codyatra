@@ -1,40 +1,77 @@
-.mainDiv {
-    height: 100vh;
-    /* background-color: aqua; */
+.column {
+    width: 33.3% !important;
+    /* width: 100% !important; */
+    /* border:2px solid red; */
+    /* background-color: red; */
 }
 
 .row {
+    /* background-color: aqua; */
     width: 100%;
+    /* display: flex; justify-content: space-evenly;     */
 }
 
-.column {
-    /* background-color: chocolate; */
-    width: 33.3% !important;
-    /* Ensure card content is centered */
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+img {
+    width: 23vw;
+}
+
+.socialimg {
+    margin-left: 9vh;
+}
+
+.heading_social {
+    margin-top: 13px;
+}
+
+.photoService {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.firstDiv img {
-    object-fit: cover;
-    height: 222px;
+.mainHeading{
+    /* border:2px solid red; */
 }
 
-
-/* Mobile View - Override width to auto */
-@media only screen and (max-width: 600px) {
-    .column {
-        width: 100% !important;
-        margin-top:23px;
-        /* Let it take natural width in mobile view */
-    }
+.firstrow{
+    /* border:2px solid violet; */
+    margin-top: 30px;;
 }
-
 @media (min-height : 645px) {
     .column {
         width: 100% !important;
-        margin-top:23px;
-        /* Let it take natural width in mobile view */
+        /* border:2px solid red; */
+        /* background-color: aqua; */
+    }
+
+    .firstcontent,
+    .img img {
+        width: 100%;
+    }
+
+    .socialimg {
+        margin-left: 0;
+        ;
+    }
+
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainHeading {
+        /* background-color: red; */
+        width: 100%;
+        margin: 10px;
     }
 }

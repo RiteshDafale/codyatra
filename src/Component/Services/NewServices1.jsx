@@ -1,51 +1,114 @@
 import React from 'react';
 import './Services.css';
-import './NewService.css'
-import web from './ServicePhotos/Webdevelopment.png'
+import './NewService.css';
+import web from './ServicePhotos/Webdevelopment.png';
 import DigitalMarketting from './ServicePhotos/DigitalMarketting.png';
 import socialMedia from './ServicePhotos/socialMedia.png';
-
+import photography from './ServicePhotos/photography.png';
+import strategy from './ServicePhotos/strategy.png';
+import free from './ServicePhotos/freeServices.png';
 
 function NewServices1() {
   return (
-    <div>
-      <div className="border border-dark mainDiv">
-        <div className="row my-2">
-          <h1 className='text-center'>Our Services</h1>
-          {/* First Column */}
-          <div className="col-lg-4 col-sm-12 border  column">
-            <div className='bigcard'>
-            <div class="card  firstDiv" >
-              <img src={web} class="card-img-top" alt="..." />
-              <div class="card-body d-flex flex-column justicy-content-center align-items-center">
-                <h5 class="card-title">Website &amp; App Development</h5>
-                {/* <p style={{fontSize:"15px"}}>Build your digital foundation.</p> */}
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
+    <div className="mainDiv">
+      <div className='mainHeading'>
+        <h1 className="text-center ">Our Services</h1>
+      </div>
+      {/* First Row */}
+      <div className="row firstrow">
+        {/* First Column */}
+        <div className="col-lg-4  col-sm-12 first column">
+          <div className="firstcontent ">
+            <div className="img">
+              <img src={web} alt="Website Development" className="img-fluid" />
             </div>
-            </div>
-          </div>
-
-          {/* Second Column */}
-          <div className="col-lg-4 col-sm-12 border column">
-           <div class="card firstDiv">
-              <img src={DigitalMarketting} class="card-img-top" alt="..." />
-              <div class="card-body d-flex flex-column justicy-content-center align-items-center">
-                <h5 class="card-title">Digital Marketing &amp; Advertising</h5>
-                {/* <p className='text-center '  style={{fontSize:"14px"}}>Drive traffic, generate leads, and grow consistently.</p> */}
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
+            <div className="heading w-100 p-2">
+              <h5 className="text-center">Website &amp; App Development</h5>
             </div>
           </div>
+        </div>
 
-          {/* Third Column */}
-          <div className="col-lg-4 col-sm-12 border column">
-            <div class="card firstDiv">
-              <img src={socialMedia} class="card-img-top" alt="..." />
-              <div class="card-body d-flex flex-column justicy-content-center align-items-center">
-                <h5 class="card-title">Digital Marketing &amp; Advertising</h5>
-                {/* <p className='text-center '  style={{fontSize:"14px"}}>Drive traffic, generate leads, and grow consistently.</p> */}
-                <a href="#" class="btn btn-primary">Read More</a>
+        {/* Second Column */}
+        <div className="col-lg-4  col-sm-12 column digital">
+          <div className="">
+            <div className="second">
+              <div className="img">
+                <img
+                  src={DigitalMarketting}
+                  alt="Digital Marketing"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="heading border w-100 text-center p-2">
+                <h5 className="">Digital Marketing &amp; Advertising</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Third Column */}
+        <div className="col-lg-4  col-sm-12 column ">
+          <div className="">
+            <div className="third ">
+              <div className="img d-flex justicy-content-center align-items-center w-100" >
+                <img
+                  src={socialMedia}
+                  alt="Social Media Management"
+                  className="img-fluid socialimg"
+                />
+              </div>
+              <div className="heading_social border">
+                <h5 className="text-center">Social Media Management &amp; Content Creation</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* second row */}
+      <div className="row secondrow mt-3">
+        {/* First Column */}
+        <div className="col-lg-4  col-sm-12 first column">
+          <div className="photoService ">
+            <div className="img">
+              <img src={photography} alt="Website Development" className="img-fluid" />
+            </div>
+            <div className="heading w-100 p-2">
+              <h5 className="text-center">Video &amp; Photography (On Request / City-Specific)</h5>
+            </div>
+          </div>
+        </div>
+
+        {/* Second Column */}
+        <div className="col-lg-4  col-sm-12 column digital">
+          <div className="">
+            <div className="second">
+              <div className="img">
+                <img
+                  src={strategy}
+                  alt="Digital Marketing"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="heading border w-100 text-center p-2">
+                <h5 className="">Strategy &amp; Consulting</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Third Column */}
+        <div className="col-lg-4  col-sm-12 column ">
+          <div className="">
+            <div className="third ">
+              <div className="img d-flex justicy-content-center align-items-center w-100" >
+                <img
+                  src={free}
+                  alt="Social Media Management"
+                  className="img-fluid socialimg"
+                />
+              </div>
+              <div className="heading_social border">
+                <h5 className="text-center">Freebies &amp; Entry Services (Great for First-Time Clients)</h5>
               </div>
             </div>
           </div>
@@ -54,5 +117,4 @@ function NewServices1() {
     </div>
   );
 }
-
 export default NewServices1;
