@@ -9,17 +9,17 @@ function Pricing() {
     <div>
       <div className="container my-4 ">
         <div className="row ">
-            <div className="col-lg-3 priceColumn   d-flex justify-content-center align-items-center">
+            <div className="col-lg-4 col-sm-12 priceColumn   d-flex justify-content-center align-items-center">
                 <div className="starterimage ">
                     <img src={starter} class="rounded mx-auto d-block" alt="Starter"></img>
                 </div>
             </div>
-            <div className="col-lg-4 priceColumn   d-flex justify-content-center align-items-center">
+            <div className="col-lg-4 col-sm-12 priceColumn   d-flex justify-content-center align-items-center">
                  <div className="starterimage">
                     <img src={growth} class="img-thumbnail" alt="Growth"></img>
                 </div>
             </div>
-            <div className="col-lg-3 priceColumn   d-flex justify-content-center align-items-center">
+            <div className="col-lg-4  col-sm-12 priceColumn   d-flex justify-content-center align-items-center">
                  <div className="starterimage">
                     <img src={premium} class="img-thumbnail" alt="Starter"></img>
                 </div>
