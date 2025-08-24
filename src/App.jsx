@@ -6,6 +6,10 @@ import './App.css'
 import Footer from './Component/Footer/Footer'
 import About from './Component/About/About'
 import NewWhy from './Component/Why/NewWhy'
+import OurServices from './Component/RedirectPages/OurServices/OurServices'
+import Testimonial from './Component/Testimonial/Testimonial'
+import Pricing from './Component/PricingPlan/Pricing'
+
 
 function App() {
   // background-color: rgb(25 48 96);
@@ -16,8 +20,11 @@ function App() {
           <Route path="/codyatra" element={<Home />}></Route>
           <Route path="/codyatra/about" element={<About/>}  />
           <Route path='/codyatra/Why' element={<NewWhy/>} />
+          <Route path='/codyatra/outservices' element={<OurServices/>} />
+          <Route path='/codyatra/testmonial' element={<Testimonial/>}></Route>
+          <Route path='/codyatra/pricingplan' element={<Pricing/>}></Route>
         </Routes>
-  {/* <Footer/> */}
+  <Footer/>
     </div>
   )
 }

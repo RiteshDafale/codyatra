@@ -19,7 +19,7 @@
 }
 
 img {
-    width: 23vw;
+    width: 13vw;
 }
 
 .socialimg {
@@ -37,13 +37,19 @@ img {
     align-items: center;
 }
 
-.mainHeading{
-    /* border:2px solid red; */
-}
+
 
 .firstrow{
     /* border:2px solid violet; */
     margin-top: 30px;;
+}
+
+.SecondMiDiv{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    /* background-color: burlywood ; */
+
 }
 @media (min-height : 645px) {
     .column {

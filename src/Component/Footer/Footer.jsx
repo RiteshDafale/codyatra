@@ -4,7 +4,7 @@ import logo from '../Images/Logo/Logo.png';
 
 function Footer() {
   return (
-     <div className="container-fluid p-3 text-white" style={{ backgroundColor: "black" }}>
+     <div className="container-fluid p-3  text-white" style={{ backgroundColor: "black" }}>
       <div className="row">
         <div className="col-lg-3  d-flex justify-content-center align-items-center">
           <div className="content ">

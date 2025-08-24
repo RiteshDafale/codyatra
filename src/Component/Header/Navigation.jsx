@@ -23,15 +23,15 @@ function Navigation() {
                             </li>
                             <li className="nav-item me-2 ">
                                 {/* <a className="nav-link text-light hoverA" href="#">Our Services</a> */}
-                                <Link className="nav-link text-light hoverA " to="#"> Our Services</Link>
+                                <Link className="nav-link text-light hoverA " to="/codyatra/outservices"> Our Services</Link>
                             </li>
                             <li className="nav-item me-2">
                                 {/* <a className="nav-link text-light hoverA " href="#" >Pricing plan</a> */}
-                                <Link className="nav-link text-light hoverA " to="#"> Pricing plan</Link>
+                                <Link className="nav-link text-light hoverA " to="/codyatra/pricingplan"> Pricing plan</Link>
                             </li>
                             <li className="nav-item me-2">
                                 {/* <a className="nav-link text-light hoverA " href="#" >Testimonial</a> */}
-                                <Link className="nav-link text-light hoverA " to="#">Testimonial</Link>
+                                <Link className="nav-link text-light hoverA " to="/codyatra/testmonial">Testimonial</Link>
                             </li>
                             <li className="nav-item me-2">
                                 {/* <a className="nav-link text-light hoverA  " href="#" >Dashboard</a> */}

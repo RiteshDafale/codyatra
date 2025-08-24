@@ -78,10 +78,9 @@ function Why() {
       
       <div className="btn d-flex align-items-center w-100 border justify-content-center">
 
-            <button className='btn btn-primary '
-             onClick={() => navigate("/codyatra/Why")}>
+            {/* <button className='btn btn-primary '>
               Read more ....
-            </button>
+            </button> */}
       </div>
       </div>
     </div>
