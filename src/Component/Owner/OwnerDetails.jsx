@@ -5,10 +5,10 @@ import OwnerImage from '../Owner/OwnerImage/owner.jpg';
 function OwnerDetails() {
   return (
     <div>
-      <div className="container-fluid border my-3">
+      <div className="container-fluid  my-3">
         <h1 className='text-center'>About Owner</h1>
         <div className="row">
-          <div className="container-fluid col-lg-6 ownerCol border" >
+          <div className="container-fluid col-lg-6 ownerCol " >
             <div className="content mt-2 ">
               <p className='text-center'>Hi, I’m <span className='highlightowner'> Kanishk Mehta </span>,the founder of <span className='highlightowner'> CODYATRA</span> __ and this isn’t just a company
                 introduction.</p>
@@ -27,7 +27,7 @@ function OwnerDetails() {
               “Your growth is our journey.”</p>
             </div>
           </div>
-          <div className="col-lg-6 ownerCol border" >
+          <div className="col-lg-6 ownerCol " >
        <div className="ownerimagediv">
         <img src={OwnerImage} class="img-thumbnail" style={{width:"100%", height:"100%"}} alt="..."></img>
        </div>

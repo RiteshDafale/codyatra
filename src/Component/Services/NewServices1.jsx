@@ -56,7 +56,7 @@ function NewServices1() {
                 className="img-fluid"
               />
             </div>
-            <div className="heading border w-100 text-center mt-2">
+            <div className="heading  w-100 text-center mt-2">
               <h5 className="">Digital Marketing &amp; Advertising</h5>
             </div>
           </div>
@@ -73,7 +73,7 @@ function NewServices1() {
                   className="img-fluid socialimg"
                 />
               </div>
-              <div className="heading_social border">
+              <div className="heading_social ">
                 <h5 className="text-center">Social xMedia Management &amp; Content Creation</h5>
               </div>
             </div>
@@ -105,7 +105,7 @@ function NewServices1() {
                   className="img-fluid"
                 />
               </div>
-              <div className="heading border w-100 text-center p-2">
+              <div className="heading  w-100 text-center p-2">
                 <h5 className="">Strategy &amp; Consulting</h5>
               </div>
           </div>
@@ -121,7 +121,7 @@ function NewServices1() {
                   className="img-fluid socialimg"
                 />
               </div>
-              <div className="heading_social border">
+              <div className="heading_social ">
                 <h5 className="text-center">Freebies &amp; Entry Services (Great for First-Time Clients)</h5>
               </div>
           </div>
