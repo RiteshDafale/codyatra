@@ -12,6 +12,28 @@
     height: 100%;
 }
 
+.pricePopup{
+   width:100%;
+   background-color: #111;
+   color:#FFF9C4 ;
+    box-shadow: '0 0 10px rgba(0,0,0,0.5)';
+    height:fit-content;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding:13px;
+}
+
+.popupbtn{
+    width: 111px;
+    height: 36px;
+    background-color: #B10DC9ed;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 23px;
+    margin-left: 23px;
+}
 @media (min-height : 645px) and (max-width: 600px) {
 
     .priceColumn {

@@ -1,85 +1,92 @@
-
-.mTop h2{
-    color:#5188eae6;
+.mTop h2 {
+    color: #5188eae6;
 }
 
 
-.why-para{
+.why-para {
     /* border:2px solid black; */
     text-align: start;
-    padding:10px;
+    padding: 10px;
 }
 
-.orderList{
+.orderList {
     width: 50%;
 }
 
-.why-mainDiv{
-    width:100vw;
-    height:100vh ;  
-}
-
-p{
-    font-size: 19px;
-}
-
-.unorderList li{
-    font-size: 19px;
-}
-
-ol li{
-  font-size: 19px;
-}
-
-.why_subDiv{
+.why-mainDiv {
     width: 100%;
-    height:100%;
+    height: 100vh;
+}
+
+p {
+    font-size: 19px;
+}
+
+.unorderList li {
+    font-size: 19px;
+}
+
+ol li {
+    font-size: 19px;
+}
+
+.why_subDiv {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;    
+    align-items: center;
 }
 
-.text-align{
+.text-align {
     text-align: center;
 }
- .orderList {
+
+.orderList {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
- .orderList ol li{
-   width:25%;
+.orderList ol li {
+    width: 25%;
 }
 
 
 @media (min-height : 645px) {
-    .why-mainDiv{
-       height:219vh;
+    .why-mainDiv {
+        height: 219vh;
     }
 }
 
-@media only screen and (max-width: 600px){
-     .why_subDiv{
+@media only screen and (max-width: 600px) {
+    .why-mainDiv {
+        width: fit-content;
+        height: 100vh;
+    }
+
+    .why_subDiv {
         margin-top: 34px;
-     }
-   .text-align{
-    text-align: start;
     }
+
+    .text-align {
+        text-align: start;
+    }
+
     .orderList {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
- .orderList ol li{
-   width:100%;
-}
+    .orderList ol li {
+        width: 100%;
+    }
 
-.line-height{
-    line-height: 24px;
-}
+    .line-height {
+        line-height: 24px;
+    }
 }

@@ -13,7 +13,7 @@ function Why() {
   }
   const [isopen, setIsopen] = useState(false);
   return (
-    <div className="container-fluid why-mainDiv mTop d-flex" >
+    <div className="container-fluid why-mainDiv mTop d-flex " >
       <div className='why_subDiv '>
       <h2 className='text-center headWhy fw-bold display-5'>
         How can <span className='text-dark'>Codyatra </span> help your business grow?

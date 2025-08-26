@@ -1,4 +1,9 @@
-.column {
+.testmonialMainDiv{
+    /* height:100vh; */
+    background-color: aqua;
+}
+
+.testmonialcolumn {
     width: 50% !important;
     display: flex;
     justify-content: center;
@@ -13,4 +18,17 @@
 .video {
     width: 50vw;
     height: 60vh;
+}
+
+
+@media  (min-height : 645px) and (max-width: 600px){
+.testmonialcolumn{
+    width:100% !important;
+    /* background-color: red; */
+}  
+.testmonialMainDiv{
+ /* height: 100%; */
+    background-color: bisque;
+}
+
 }

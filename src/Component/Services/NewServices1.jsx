@@ -14,24 +14,6 @@ function NewServices1() {
       <div className='mainHeading'>
         <h1 className="text-center ">Our Services</h1>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {/* First Row */}
       <div className="row firstrow ">
         {/* First Column */}
@@ -40,8 +22,8 @@ function NewServices1() {
             <div className="img">
               <img src={web} alt="Website Development" className="img-fluid" />
             </div>
-            <div className="heading mt-2">
-              <h5 className="text-center ">Website &amp; App Development</h5>
+            <div className="heading mt-2 ">
+              <h5 className="text-center subheading ">Website &amp; App Development</h5>
             </div>
           </div>
         </div>
@@ -57,7 +39,7 @@ function NewServices1() {
               />
             </div>
             <div className="heading  w-100 text-center mt-2">
-              <h5 className="">Digital Marketing &amp; Advertising</h5>
+              <h5 className="subheading">Digital Marketing &amp; Advertising</h5>
             </div>
           </div>
         </div>
@@ -74,7 +56,7 @@ function NewServices1() {
                 />
               </div>
               <div className="heading_social ">
-                <h5 className="text-center">Social xMedia Management &amp; Content Creation</h5>
+                <h5 className="text-center subheading">Social xMedia Management &amp; Content Creation</h5>
               </div>
             </div>
           </div>
@@ -90,7 +72,7 @@ function NewServices1() {
               <img src={photography} alt="Website Development" className="img-fluid" />
             </div>
             <div className="heading w-100 p-2">
-              <h5 className="text-center">Video &amp; Photography (On Request / City-Specific)</h5>
+              <h5 className="text-center subheading">Video &amp; Photography (On Request / City-Specific)</h5>
             </div>
           </div>
         </div>
@@ -106,7 +88,7 @@ function NewServices1() {
                 />
               </div>
               <div className="heading  w-100 text-center p-2">
-                <h5 className="">Strategy &amp; Consulting</h5>
+                <h5 className="subheading">Strategy &amp; Consulting</h5>
               </div>
           </div>
         </div>
@@ -122,7 +104,7 @@ function NewServices1() {
                 />
               </div>
               <div className="heading_social ">
-                <h5 className="text-center">Freebies &amp; Entry Services (Great for First-Time Clients)</h5>
+                <h5 className="text-center subheading">Freebies &amp; Entry Services (Great for First-Time Clients)</h5>
               </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ function Home() {
       {/* <Services /> */}
       <NewService />
       <OwnerDetails />
-      {/* <Why /> */}
+      <Why />
 
     </div>
   )
