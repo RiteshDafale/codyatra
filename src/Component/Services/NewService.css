@@ -1,3 +1,7 @@
+.mainDiv{
+    /* height:00vh; */
+}
+
 .servicecolumn {
     width: 33.3% !important;
     /* width: 100% !important; */
@@ -52,7 +56,8 @@ img {
 
 }
 @media (min-height : 645px) {
-    .servicecolumn {
+    .servicecolumn
+     {
         width: 100% !important;
         /* border:2px solid red; */
         /* background-color: aqua; */

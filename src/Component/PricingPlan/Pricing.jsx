@@ -14,7 +14,7 @@ function Pricing() {
                     <img src={starter} class="rounded mx-auto d-block" alt="Starter"></img>
                 </div>
             </div>
-            <div className="col-lg-4 col-sm-12 priceColumn   d-flex justify-content-center align-items-center">
+            <div className="my-3 col-lg-4 col-sm-12 priceColumn   d-flex justify-content-center align-items-center">
                  <div className="starterimage">
                     <img src={growth} class="img-thumbnail" alt="Growth"></img>
                 </div>

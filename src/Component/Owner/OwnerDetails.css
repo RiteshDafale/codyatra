@@ -1,4 +1,30 @@
 .ownerCol{
     width:50% !important;
     /* background-color: red; */
+}  
+
+.highlightowner{
+    font-weight: 900;
+    color:#5188eae6;
+}
+
+.content{
+    line-height: 22px;
+    font-family: sans-serif;
+}
+
+.ownerimagediv{
+    width:100% !important;
+    height:95vh;
+}
+
+@media  (min-height : 645px) and (max-width: 600px){
+.ownerCol{
+    width:100% !important;
+    /* background-color: red; */
+}  
+.ownerimagediv{
+    width: 100% !important;
+    height: 60vh;
+}
 }
