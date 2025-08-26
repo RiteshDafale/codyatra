@@ -1,4 +1,4 @@
-.column {
+.servicecolumn {
     width: 33.3% !important;
     /* width: 100% !important; */
     /* border:2px solid red; */
@@ -19,7 +19,7 @@
 }
 
 img {
-    width: 13vw;
+    width: 23vw;
 }
 
 .socialimg {
@@ -52,7 +52,7 @@ img {
 
 }
 @media (min-height : 645px) {
-    .column {
+    .servicecolumn {
         width: 100% !important;
         /* border:2px solid red; */
         /* background-color: aqua; */
