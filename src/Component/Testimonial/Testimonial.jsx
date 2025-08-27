@@ -11,7 +11,7 @@ const Testimonial = () => {
         <div className='container-fluid mb-3  my-2 testmonialMainDiv' >
             <h1 className='text-center'>Testimonials</h1>
             <div className="container-fluid m-4">
-                <div className="row  mt-3 bg-secondary ">
+                <div className="row  mt-3">
                     <div className="col-lg-6 col-sm-12  testmonialcolumn">
                         <div className="video">
                             <video src={ASCafe} className="object-fit-cover" autoPlay muted controlsList='nodownload'></video>

@@ -21,9 +21,10 @@ function Pricing() {
 
     return () => clearTimeout(timer);
 
-  })
+  },[])
 
-  const closePopup = () => {
+  const closePopup = (e) => {
+    e.preventDefault();
     console.log("function called")
     setpopup(false);
   }
@@ -33,7 +34,7 @@ function Pricing() {
       {showpopup && (
         <div className='pricePopup '>
           <p>   This is our base price — but your vision is unique. We customize every plan to fit your exact goals, ensuring you pay only for what truly drives results.</p>
-          {/* <button className='popupbtn' onClick={closePopup}>close </button> */}
+            <button className="popupbtn" onClick={closePopup}>Close</button>
         </div>
 
       )

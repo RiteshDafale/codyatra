@@ -12,28 +12,41 @@
     height: 100%;
 }
 
-.pricePopup{
-   width:100%;
-   background-color: #111;
-   color:#FFF9C4 ;
-    box-shadow: '0 0 10px rgba(0,0,0,0.5)';
-    height:fit-content;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-    padding:13px;
+.pricePopup {
+    /* background-color: #007bff; */
+    background-color: #000000;
+    /* Blue background */
+    color: white;
+     width:75%;
+    padding: 20px;
+    border-radius: 8px;
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    /* max-width: 500px; */
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.popupbtn{
-    width: 111px;
-    height: 36px;
-    background-color: #B10DC9ed;
-    color: #fff;
-    font-size: 20px;
-    border-radius: 23px;
-    margin-left: 23px;
+.popupbtn {
+    background-color: white;
+    color: #007bff;
+   
+    border: none;
+    padding: 8px 16px;
+    margin-top: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
+
+.popupbtn:hover {
+    background-color: #e6e6e6;
+}
+
 @media (min-height : 645px) and (max-width: 600px) {
 
     .priceColumn {
