@@ -19,7 +19,6 @@ function Home() {
       <NewService />
       <OwnerDetails />
       <Why />
-
     </div>
   )
 }

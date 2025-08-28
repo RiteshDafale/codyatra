@@ -9,6 +9,8 @@ import NewWhy from './Component/Why/NewWhy'
 import OurServices from './Component/RedirectPages/OurServices/OurServices'
 import Testimonial from './Component/Testimonial/Testimonial'
 import Pricing from './Component/PricingPlan/Pricing'
+import Dashboard from './Component/Dashboard/Dashboard'
+import FreeTools from './Component/FreeTools/FreeTools'
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path='/codyatra/outservices' element={<OurServices/>} />
           <Route path='/codyatra/testmonial' element={<Testimonial/>}></Route>
           <Route path='/codyatra/pricingplan' element={<Pricing/>}></Route>
+          <Route path='/codyatra/Dashboard' element={<Dashboard/>}></Route>
+          <Route path='/codyatra/FreeTools' element={<FreeTools/>}></Route>
         </Routes>
   <Footer/>
     </div>

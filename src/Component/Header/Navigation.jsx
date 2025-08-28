@@ -35,15 +35,15 @@ function Navigation() {
                             </li>
                             <li className="nav-item me-2">
                                 {/* <a className="nav-link text-light hoverA  " href="#" >Dashboard</a> */}
-                                <Link className="nav-link text-light hoverA " to="#"> Dashboard</Link>
+                                <Link className="nav-link text-light hoverA " to="/codyatra/Dashboard"> Dashboard</Link>
                             </li>
                             <li className="nav-item me-2">
                                 {/* <a className="nav-link text-light hoverA " href="#" >Free Tools</a> */}
-                             <Link className="nav-link text-light hoverA " to="#">Free Tools</Link>
+                                <Link className="nav-link text-light hoverA " to="/codyatra/FreeTools">Free Tools</Link>
                             </li>
                             <li className="nav-item me-2">
                                 {/* <a className="nav-link text-light hoverA " href="#" >Free Tools</a> */}
-                             <Link className="nav-link text-light hoverA " to="/codyatra/about">About Codyatra</Link>
+                                <Link className="nav-link text-light hoverA " to="/codyatra/about">About Codyatra</Link>
                             </li>
                         </ul>
                         <form className="d-flex" role="button">
