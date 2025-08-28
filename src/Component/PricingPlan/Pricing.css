@@ -91,9 +91,16 @@
     width: 100%;
   }
   .Form-subDiv{
-    background-color: #007BFF;
+    /* background-color: #007BFF; */
+    border:none
+  }
+  .Form-mainDiv{
+    padding:12px;
+    /* padding:0; */
+    border:2px solid black;
   }
 .inputDiv {
   width:76vw;;
+  background-color: red;
 }
 }
