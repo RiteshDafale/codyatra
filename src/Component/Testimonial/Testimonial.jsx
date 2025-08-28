@@ -29,13 +29,13 @@ const Testimonial = () => {
                 <div className="testmonialcolumn">
                     <div className="video">
                         <video src={chaicom} className="video-player" autoPlay muted loop controlsList="nodownload" />
-                        <h3 className="video-title">Chai Chopati</h3>
+                        <h3 className="video-title">Chaha.com</h3>
                     </div>
                 </div>
                 <div className="testmonialcolumn">
                     <div className="video">
                         <video src={chaicom2} className="video-player" autoPlay muted loop controlsList="nodownload" />
-                        <h3 className="video-title">Chai Chopati</h3>
+                        <h3 className="video-title">Chaha.com</h3>
                     </div>
                 </div>
             </div>
