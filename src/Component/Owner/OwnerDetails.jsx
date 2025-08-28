@@ -1,41 +1,57 @@
-import React from 'react'
+import React from 'react';
 import '../Owner/OwnerDetails.css';
 import OwnerImage from '../Owner/OwnerImage/owner.jpg';
 
 function OwnerDetails() {
   return (
-    <div>
-      <div className="container-fluid">
-        <h1 className='text-center'>About Owner</h1>
-        <div className="row">
-          <div className="container-fluid col-lg-6 ownerCol " >
-            <div className="Ownercontent  ">
-              <p className='text-center'>Hi, I’m <span className='highlightowner'> Kanishk Mehta </span>,the founder of <span className='highlightowner'> CODYATRA</span> __ and this isn’t just a company
-                introduction.</p>
-              <p >This is my story. Our story. A story that’s still being written, one bold step at a time.</p>
-              <p >I don’t claim to have all the answers.</p>
-              <p >I’m learning every day — from my clients, my team, and this fast-changing digital world.</p>
-              <p >But what I can promise is this:</p>
-              <p >If you work with me and my team at CODYATRA, you’ll get <span className='fw-bold'> effort, honesty, creativity, and commitment</span> — every single day.</p>
-              <p >This is just the beginning.</p>
-              <p >If you’re ready to grow, to be seen, to build something that lasts — I invite you to join this
-                journey.</p>
-              <p className=''>Let’s turn ideas into action.<br />Let’s make your brand unforgettable.<br />Let’s walk this <span className='fw-bold'> Yatra </span>together.</p>
-
-             <p className=''> <span className='highlightowner fw-bolder'>Kanishk Mehta</span><br/>
-              Founder, CODYATRA<br/>
-              “Your growth is our journey.”</p>
-            </div>
-          </div>
-          <div className="col-lg-6 ownerCol " >
-       <div className="ownerimagediv">
-        <img src={OwnerImage} class="img-thumbnail" style={{width:"100%", height:"100%"}} alt="..."></img>
-       </div>
+    <div className="container-fluid owner-section py-5">
+      <div className="row d-flex align-items-center ">
+        
+        {/* Text Section */}
+        <div className="col-lg-6 col-md-12 owner-text">
+          <h1 className="text-center mb-4">About the Founder</h1>
+          <div className="owner-content px-4">
+            <p>
+              Hi, I’m <span className="highlight-owner">Kanishk Mehta</span>, founder of <span className="highlight-owner">CODYATRA</span>.
+              This isn’t just a company intro — it’s a glimpse into my journey.
+            </p>
+            <p>
+              Our story is still being written — built on bold steps, challenges, and real growth.
+            </p>
+            <p>
+              I don't have all the answers. But I learn daily — from clients, my team, and this fast-evolving digital world.
+            </p>
+            <p>
+              What I promise is simple: <strong>effort, honesty, creativity, and full commitment</strong> — every day.
+            </p>
+            <p>
+              This is just the beginning. If you’re ready to build something meaningful — let’s start this journey together.
+            </p>
+            <p>
+              Let’s turn ideas into action.<br />
+              Let’s make your brand unforgettable.<br />
+              Let’s walk this <strong>Yatra</strong> together.
+            </p>
+            <p className="mt-4">
+              <span className="highlight-owner fw-bold">Kanishk Mehta</span><br />
+              Founder, CODYATRA<br />
+              <em>“Your growth is our journey.”</em>
+            </p>
           </div>
         </div>
+
+        {/* Image Section */}
+        <div className="col-lg-6 col-md-12 owner-image-wrapper">
+          <img
+            src={OwnerImage}
+            alt="Founder"
+            className="img-fluid owner-img"
+          />
+        </div>
+
       </div>
     </div>
-  )
+  );
 }
 
-export default OwnerDetails
+export default OwnerDetails;

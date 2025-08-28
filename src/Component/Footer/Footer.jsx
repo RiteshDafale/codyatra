@@ -4,7 +4,7 @@ import logo from '../Images/Logo/Logo.png';
 
 function Footer() {
   return (
-    <div className='container-fluid bg-dark footer text-light'>
+    <div className='container-fluid bg-dark footer text-light d-flex flex-column justify-content-center align-items-center'>
       <div className="row  w-full">
         <div className="col-lg-3 col-sm-12 footercolumn firstcol d-flex flex-column justify-content-center align-items-center">
           {/* <div className="content">
@@ -18,7 +18,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="col-lg-3 col-sm-12 footercolumn d-flex flex-column justify-content-center align-items-center">
+        <div className="col-lg-3 col-sm-12 footercolumn d-flex flex-column justify-content-center align-items-center ">
           <div className="servicesCotnent my-2">
             <h2 className='text-center'>Services</h2>
             <div className="list">

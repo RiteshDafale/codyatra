@@ -43,7 +43,7 @@ function Pricing() {
 
       {/* Main Content with conditional blur */}
       <div className={showpopup ? "page-content blur" : "page-content"}>
-        <div className="container my-4">
+        <div className="container my-4  d-flex flex-column justify-content-center align-items-center">
           <div className="row">
             <div className="col-lg-4 col-sm-12 priceColumn d-flex justify-content-center align-items-center">
               <div className="starterimage">
