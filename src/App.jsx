@@ -11,24 +11,27 @@ import Testimonial from './Component/Testimonial/Testimonial'
 import Pricing from './Component/PricingPlan/Pricing'
 import Dashboard from './Component/Dashboard/Dashboard'
 import FreeTools from './Component/FreeTools/FreeTools'
+import Contact from './Component/Contact/Contact.JSX'
+
 
 
 function App() {
   // background-color: rgb(25 48 96);
   return (
     <div className='mainBackgroundColor' >
-        <Navigation />
-        <Routes>
-          <Route path="/codyatra" element={<Home />}></Route>
-          <Route path="/codyatra/about" element={<About/>}  />
-          <Route path='/codyatra/Why' element={<NewWhy/>} />
-          <Route path='/codyatra/outservices' element={<OurServices/>} />
-          <Route path='/codyatra/testmonial' element={<Testimonial/>}></Route>
-          <Route path='/codyatra/pricingplan' element={<Pricing/>}></Route>
-          <Route path='/codyatra/Dashboard' element={<Dashboard/>}></Route>
-          <Route path='/codyatra/FreeTools' element={<FreeTools/>}></Route>
-        </Routes>
-  <Footer/>
+      <Navigation />
+      <Routes>
+        <Route path="/codyatra" element={<Home />}></Route>
+        <Route path="/codyatra/about" element={<About />} />
+        <Route path='/codyatra/Why' element={<NewWhy />} />
+        <Route path='/codyatra/outservices' element={<OurServices />} />
+        <Route path='/codyatra/testmonial' element={<Testimonial />}></Route>
+        <Route path='/codyatra/pricingplan' element={<Pricing />}></Route>
+        <Route path='/codyatra/Dashboard' element={<Dashboard />}></Route>
+        <Route path='/codyatra/FreeTools' element={<FreeTools />}></Route>
+        <Route path='/codyatra/Contact' element={<Contact />}></Route>
+      </Routes>
+      <Footer />
     </div>
   )
 }

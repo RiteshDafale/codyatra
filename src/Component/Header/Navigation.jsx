@@ -1,11 +1,12 @@
 import React from 'react'
 import './Navigation.css';
 import logo from '../Images/Logo/Logo.png';
-import { useNavigation, Link } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 function Navigation() {
-
+    
     // const navigate = useNavigation();
+    const navigate = useNavigate();
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-dark p-3">
@@ -47,7 +48,11 @@ function Navigation() {
                             </li>
                         </ul>
                         <form className="d-flex" role="button">
-                            <button className="btn btn-primary" type="submit">Contact us</button>
+                            <button className="btn btn-primary" type="submit"
+                            onClick={()=>{
+                                nacvigate("/codyatra/Contact")
+                            }}
+                            >Contact us</button>
                         </form>
                     </div>
                 </div>
