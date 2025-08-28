@@ -1,37 +1,26 @@
-/* Highlighted name or keywords */
+/* Highlighted text */
 .highlight-owner {
   font-weight: 800;
   color: #5188ea;
-
 }
 
-.owner-section .row{
-  /* background-color: antiquewhite;/ */
-  display: flex;
-  
+.ownercol{
+    width:50% !important
 }
 
-.owner-text{
-    /* background-color: #5188ea; */
-    width:50% !important;
-
-}
-/* Text content styles */
+/* Text styling */
 .owner-content {
   font-size: 1rem;
   line-height: 1.8;
   text-align: justify;
-  width:50%;
 }
 
-/* Image styling */
+/* Image container and image styling */
 .owner-image-wrapper {
-  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #5188ea; */
-  width:50% !important;
+  width:100% !important;
 }
 
 .owner-img {
@@ -42,39 +31,19 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive design */
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .owner-content {
     text-align: center;
     padding: 0 1rem;
   }
 
+  .ownercol{
+    width:100% !important
+}
+
   .owner-img {
     max-height: 60vh;
-    object-fit: contain;
-  }
-}
-
-
-@media  (min-height : 645px) and (max-width: 600px){
-.ownerCol{
-    width:100% !important;
-    /* background-color: red; */
-}  
-.ownerimagediv{
-    width: 100% !important;
-    height: 60vh;
-}
-.content p{
-    text-align: center;
-}
- .owner-content {
-    text-align: center;
-    padding: 0 1rem;
-  }
-
-  .owner-img {
-    max-height: 160vh;
     object-fit: contain;
   }
 }
