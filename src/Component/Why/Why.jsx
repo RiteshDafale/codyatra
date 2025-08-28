@@ -76,12 +76,6 @@ function Why() {
         )} */}
 
       
-      <div className="btn d-flex align-items-center w-100 border justify-content-center">
-
-            {/* <button className='btn btn-primary '>
-              Read more ....
-            </button> */}
-      </div>
       </div>
     </div>
     </div>
