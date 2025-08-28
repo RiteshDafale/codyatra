@@ -50,7 +50,7 @@ function Navigation() {
                         <form className="d-flex" role="button">
                             <button className="btn btn-primary" type="submit"
                             onClick={()=>{
-                                nacvigate("/codyatra/Contact")
+                                navigate("/codyatra/Contact")
                             }}
                             >Contact us</button>
                         </form>

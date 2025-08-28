@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Footer/Footer.css';
 import logo from '../Images/Logo/Logo.png';
+import { useNavigate, Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -33,7 +34,11 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-sm-12 footercolumn">Imp link</div>
+        <div className="col-lg-3 col-sm-12 footercolumn">
+          <div className="link">
+             {/* <Link className="nav-link text-light hoverA " to="/codyatra"> Home</Link> */}
+          </div>
+        </div>
         <div className="col-lg-3 col-sm-12 footercolumn">Social media icons and Contact info</div>
       </div>
     </div>
