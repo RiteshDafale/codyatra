@@ -4,13 +4,13 @@ import OwnerImage from '../Owner/OwnerImage/owner.jpg';
 
 function OwnerDetails() {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid py-3  d-flex flex-col justify-content-center align-items-center">
       <div className="row align-items-center">
 
         {/* Text Section */}
-        <div className="col-lg-6 col-sm-12 mb-4 mb-lg-0 ownercol">
-          <h1 className="text-center mb-4">About the Founder</h1>
-          <div className="owner-content px-4">
+        <div className="col-lg-6 col-sm-12 mb-4 ownercol">
+          <h1 className="text-center mb-4">About Founder</h1>
+          <div className="owner-content ">
             <p>
               Hi, I’m <span className="highlight-owner">Kanishk Mehta</span>, founder of <span className="highlight-owner">CODYATRA</span>. This isn’t just a company intro — it’s a glimpse into my journey.
             </p>
@@ -31,7 +31,7 @@ function OwnerDetails() {
               Let’s make your brand unforgettable.<br />
               Let’s walk this <strong>Yatra</strong> together.
             </p>
-            <p className="mt-4">
+            <p className="mt-3">
               <span className="highlight-owner fw-bold">Kanishk Mehta</span><br />
               Founder, CODYATRA<br />
               <em>“Your growth is our journey.”</em>
