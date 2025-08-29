@@ -41,7 +41,7 @@ function OwnerDetails() {
 
         {/* Image Section */}
         <div className="col-lg-6 col-sm-12 ownercol">
-          <div className="owner-image-wrapper px-4">
+          <div className="owner-image-wrapper ">
             <img
               src={OwnerImage}
               alt="Founder"
