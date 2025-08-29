@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+// import './Services.css';
 import './NewService.css';
 import web from './ServicePhotos/Webdevelopment.png';
 import DigitalMarketting from './ServicePhotos/DigitalMarketting.png';
@@ -17,7 +17,7 @@ function NewServices1() {
       {/* First Row */}
       <div className="row firstrow ">
         {/* First Column */}
-        <div className="col-lg-4  col-sm-12 first servicecolumn ">
+        <div className="col-lg-3 col-sm-12 first servicecolumn ">
           <div className="firstcontent d-flex flex-column justify-content-center align-items-center  ">
             <div className="img">
               <img src={web} alt="Website Development" className="img-fluid" />
@@ -29,7 +29,7 @@ function NewServices1() {
         </div>
 
         {/* Second Column */}
-        <div className="col-lg-4  col-sm-12 servicecolumn ">
+        <div className="col-lg-3  col-sm-12 servicecolumn ">
           <div className="SecondMiDiv  d-flex flex-column justify-content-center align-items-center  ">
             <div className="img">
               <img
@@ -45,28 +45,28 @@ function NewServices1() {
         </div>
 
         {/* Third Column */}
-        <div className="col-lg-4  col-sm-12 servicecolumn  d-flex flex-column justify-content-center align-items-center   ">
-          <div>
+        <div className="col-lg-3  col-sm-12 servicecolumn  d-flex flex-column justify-content-center align-items-center  ">
+        
             <div className="third d-flex flex-column justify-content-center align-items-center   ">
-              <div className="img  " >
+              <div className="img d-flex  d-flex justify-content-center align-items-center  social  " >
                 <img
                   src={socialMedia}
                   alt="Social Media Management"
                   className="img-fluid socialimg"
+                  style={{width:"100% !important", height:"100% !important"}}
                 />
               </div>
               <div className="heading_social ">
-                <h5 className="text-center subheading">Social xMedia Management &amp; Content Creation</h5>
+                <h5 className="text-center subheading">Social Media Management </h5>
               </div>
             </div>
-          </div>
         </div>
       </div>
 
       {/* second row */}
       <div className="row secondrow mt-3">
         {/* First Column */}
-        <div className="col-lg-4  col-sm-12 first servicecolumn">
+        <div className="col-lg-3  col-sm-12 first servicecolumn">
           <div className="photoService d-flex flex-column justify-content-center align-items-center  ">
             <div className="img">
               <img src={photography} alt="Website Development" className="img-fluid" />
@@ -78,7 +78,7 @@ function NewServices1() {
         </div>
 
         {/* Second Column */}
-        <div className="col-lg-4  col-sm-12 servicecolumn digital">
+        <div className="col-lg-3  col-sm-12 servicecolumn digital">
           <div className="SecondMiDiv d-flex flex-column justify-content-center align-items-center ">
               <div className="img">
                 <img
@@ -94,17 +94,18 @@ function NewServices1() {
         </div>
 
         {/* Third Column */}
-        <div className="col-lg-4  col-sm-12 servicecolumn  ">
-            <div className="third d-flex flex-column justify-content-center align-items-center  ">
-              <div className="img " >
+        <div className="col-lg-3  col-sm-12 servicecolumn  d-flex flex-column justify-content-center align-items-center   ">
+            <div className="third d-flex flex-column justify-content-center align-items-center socialDiv ">
+              <div className="img  " >
                 <img
                   src={free}
                   alt="Social Media Management"
                   className="img-fluid socialimg"
+                   style={{width:"100% !important", height:"100% !important"}}
                 />
               </div>
               <div className="heading_social ">
-                <h5 className="text-center subheading">Freebies &amp; Entry Services (Great for First-Time Clients)</h5>
+                <h5 className="text-center subheading">Freebies &amp; Entry Services </h5>
               </div>
           </div>
         </div>
