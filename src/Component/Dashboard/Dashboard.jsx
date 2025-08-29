@@ -7,7 +7,7 @@ function Dashboard() {
   })
   return (
     <div>
-   <h3 className='text-danger text-center my-4'>Comming soon --- UNDERMAINTAINANCE</h3>
+   <h3 className='text-danger text-center my-4' style={{height:"100vh"}}>Comming soon --- UNDERMAINTAINANCE</h3>
     </div>
   )
 }

@@ -1,38 +1,120 @@
-.contactMainDiv{
-    height:23vh;
-    width: 100%;
-    background-color:black;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Main Contact Section */
+.contactMainDiv {
+  height: 23vh;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
 }
 
-.contactCol{
-    width:33.3% !important;
-   border:2px solid black;
-}
-.mainphone{
-    background-color: aquamarine;;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:24vh;
+.contactMainDiv h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
 }
 
-.phone{
-    border:2px solid red;
-   width:45vw;
+/* Contact Details Section */
+.contact-details {
+  padding: 20px;
 }
 
-.phone i{
-    font-size: 34px;;
+.contactCol {
+  width: 33.3%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-
-@media (min-height : 645px) and (max-width: 600px) {
-.contactCol{
-    width:100% !important;
-   border:2px solid black;
+.contactCol:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.mainphone {
+  background-color: #e0f7fa;
+}
+
+.mainemail {
+  background-color: #e8f5e9;
+}
+
+.mainlocation {
+  background-color: #fff3e0;
+}
+
+/* Contact Information (Icons and Text) */
+.phone, .email, .location {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.phone i, .email i, .location i {
+  font-size: 40px;
+  color: #0277bd;
+  margin-bottom: 15px;
+}
+
+.phone p, .email p, .location p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+/* Contact Button */
+.contactBtn {
+  background-color: #0277bd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contactBtn:hover {
+  background-color: #01579b;
+}
+
+/* Media Query for Mobile Screens */
+@media (min-height: 645px) and (max-width: 600px) {
+  .contactCol {
+    width: 100% !important;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+  }
+
+  .contactMainDiv h1 {
+    font-size: 2rem;
+  }
+
+  .phone p, .email p, .location p {
+    font-size: 1rem;
+  }
+
+  .contactBtn {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive Design for Larger Screens */
+@media (min-width: 1200px) {
+  .contactCol {
+    width: 25% !important;
+  }
+
+  .contactMainDiv h1 {
+    font-size: 3rem;
+  }
 }

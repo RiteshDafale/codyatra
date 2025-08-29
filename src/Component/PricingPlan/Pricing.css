@@ -80,11 +80,12 @@
 }
 
 
-@media (min-height : 645px) and (max-width: 600px) {
-
+/* @media (min-height : 645px) and (max-width: 600px) { */
+@media (min-width:320px) and  (max-width: 600px)  {
+  
   .priceColumn {
     width: 100% !important;
-    /* background-color: red;; */
+    background-color: red;;
   }
 
   .priceColumn img {

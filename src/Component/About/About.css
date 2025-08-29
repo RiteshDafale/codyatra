@@ -6,7 +6,9 @@
 }
 
 .about-content {
-  max-width: 900px;
+  /* max-width: 900px; */
+  background-color: red;
+  width:50% I !important;
   margin: 0 auto;
 }
 
@@ -28,6 +30,8 @@
 /* Header and Branding */
 .about-header {
   background-color: #f8f9fa;
+  /* background-color: red; */
+
   border-bottom: 1px solid #dee2e6;
 }
 
