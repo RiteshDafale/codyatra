@@ -14,11 +14,11 @@ function Home() {
 
   return (
     <div>
-      <Banner />
+      {/* <Banner /> */}
       {/* <Services /> */}
+      <Why />
       <NewService />
       <OwnerDetails />
-      <Why />
     </div>
   )
 }

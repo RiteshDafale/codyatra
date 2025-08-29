@@ -18,7 +18,7 @@ function Why() {
       <h2 className='text-center headWhy fw-bold display-5'>
         How can <span className='text-dark'>Codyatra </span> help your business grow?
       </h2>
-      <div className="container ans p-3">
+      <div className="container ans ">
         <p className='border-dark'>
           In today’s crowded digital space, businesses are not just looking for services — they’re looking for real partners, people who understand their goals, respect their vision, and go beyond the usual to create lasting impact.
         </p>
@@ -26,7 +26,7 @@ function Why() {
           That’s exactly what <span className='fw-bold'>Codyatra </span> stands for.
         </p>
 
-        <div className='lh-1 '>
+        <div className='lh-sm '>
           <p className='line-height text-align '>We’re not here to sell you vanity metrics or empty promises.</p>
           <p className='text-align '>We’re here to build, support, and grow — <span className='fw-bold'>together </span>.</p>
         </div>
