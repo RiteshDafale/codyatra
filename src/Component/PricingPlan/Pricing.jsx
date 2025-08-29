@@ -3,6 +3,7 @@ import '../PricingPlan/Pricing.css';
 import starter from '../PricingPlan/PricingImages/Starter.png';
 import growth from '../PricingPlan/PricingImages/Growth.png';
 import premium from '../PricingPlan/PricingImages/Premium.png';
+import { toast ,Zoom ,Slide ,Flip } from 'react-toastify';
 
 function Pricing() {
   const [showpopup, setpopup] = useState(false);
@@ -10,9 +11,9 @@ function Pricing() {
   useEffect(() => {
     document.title = "Codyatra - Pricing Plans";
 
-    // const timer = setTimeout(() => {
-    //   setpopup(true);
-    // }, 500);
+    const timer = setTimeout(() => {
+      setpopup(true);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -21,6 +22,42 @@ function Pricing() {
     e.preventDefault();
     setpopup(false);
   };
+
+
+  const handleRequest = (e) => {
+    e.preventDefault();
+    console.log("button clicked");
+
+    toast.info(
+      <div>
+        <strong>Request Received!</strong>
+        <div>We’ll contact you shortly </div>
+      </div>,
+      {
+        position: "top-right",
+        autoClose: 6000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+         transition: Flip,
+        theme: "colored",
+      }
+    )
+
+
+    // toast('Your request has been received. We’ll contact you shortly to follow up.', {
+    //   position: "top-right",
+    //   autoClose: 5000,
+    //   hideProgressBar: false,
+    //   closeOnClick: false,
+    //   pauseOnHover: true,
+    //   draggable: true,
+    //   progress: undefined,
+    //   theme: "colored",
+    //   transition: 'Bounce',
+    // });
+  }
 
   return (
     <div>
@@ -104,8 +141,8 @@ function Pricing() {
               </select>
             </div>
             <div className='border text-center'>
-              
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+              <button type="submit" class="btn btn-primary" onClick={handleRequest}>Submit</button>
             </div>
           </form>
         </div>

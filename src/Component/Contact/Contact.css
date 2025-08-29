@@ -1,0 +1,38 @@
+.contactMainDiv{
+    height:23vh;
+    width: 100%;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactCol{
+    width:33.3% !important;
+   border:2px solid black;
+}
+.mainphone{
+    background-color: aquamarine;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:24vh;
+}
+
+.phone{
+    border:2px solid red;
+   width:45vw;
+}
+
+.phone i{
+    font-size: 34px;;
+}
+
+
+@media (min-height : 645px) and (max-width: 600px) {
+.contactCol{
+    width:100% !important;
+   border:2px solid black;
+}
+}

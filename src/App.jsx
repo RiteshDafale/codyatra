@@ -12,6 +12,8 @@ import Pricing from './Component/PricingPlan/Pricing'
 import Dashboard from './Component/Dashboard/Dashboard'
 import FreeTools from './Component/FreeTools/FreeTools'
 import Contact from './Component/Contact/Contact.JSX'
+import {ToastContainer} from 'react-toastify';
+
 
 
 
@@ -19,6 +21,21 @@ function App() {
   // background-color: rgb(25 48 96);
   return (
     <div className='mainBackgroundColor' >
+
+<ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick={false}
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+// transition={{Bounce}}
+/>
+
       <Navigation />
       <Routes>
         <Route path="/codyatra" element={<Home />}></Route>
