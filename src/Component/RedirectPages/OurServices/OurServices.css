@@ -58,12 +58,12 @@
     /* Add a wrapper class to prevent global styles affecting other sections */
 .servicesContainer {
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 /* Base Styles for Service Section */
 .serviceMainHeading {
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.918);
     color: white;
     text-align: center;
     height: 20vh;
@@ -176,24 +176,31 @@
     }
 
     .serviceHeader {
-        flex-direction: column;
+        /* flex-direction: column; */
         text-align: center;
     }
 
     .serviceIcon {
-        width: 30px;
-        height: 30px;
+        width: 90px;
+        height: 80px;
     }
 
     .serviceTitle h3 {
         font-size: 20px;
     }
 
+.serviceTitle {
+    text-align: center;
+}
     .serviceTitle p {
         font-size: 14px;
     }
 
-    .serviceList li {
-        font-size: 14px;
+    .serviceList{
+        text-align: center;
+        /* background-color: antiquewhite; */
+    }
+       .serviceList li {
+        font-size: 16px;
     }
 } 
