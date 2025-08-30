@@ -45,18 +45,6 @@ function Pricing() {
       }
     )
 
-
-    // toast('Your request has been received. We’ll contact you shortly to follow up.', {
-    //   position: "top-right",
-    //   autoClose: 5000,
-    //   hideProgressBar: false,
-    //   closeOnClick: false,
-    //   pauseOnHover: true,
-    //   draggable: true,
-    //   progress: undefined,
-    //   theme: "colored",
-    //   transition: 'Bounce',
-    // });
   }
 
   return (
@@ -81,7 +69,7 @@ function Pricing() {
       {/* Main Content with conditional blur */}
       <div className={showpopup ? "page-content blur" : "page-content"}>
         <div className="container my-4  d-flex flex-column justify-content-center align-items-center">
-          <div className="row">
+          <div className="row " >
             <div className="col-lg-4 col-sm-12 priceColumn d-flex justify-content-center align-items-center">
               <div className="starterimage">
                 <img

@@ -70,6 +70,19 @@
 }
 
 
+.instagram{
+   /* background-color: red;; */
+}
+
+.insticon{
+   font-size: 34px;;
+
+}
+.insticon:hover{
+   cursor: pointer;
+}
+
+
 @media (min-width:320px) and (max-width: 600px){
    .footercolumn {
       width: 100% !important;
