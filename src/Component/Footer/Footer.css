@@ -78,8 +78,11 @@
    font-size: 34px;;
 
 }
+
+
 .insticon:hover{
    cursor: pointer;
+   /* transform:  */
 }
 
 
