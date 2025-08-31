@@ -3,10 +3,10 @@ import '../OurServices/OurServices.css';
 import webIcon from '../OurServices/Icons/web.png';
 import checkmark from '../OurServices/Icons/checkmark.png';
 import marketingIcon from '../OurServices/Icons/Digital_marketing1.png';
-// import socialMediaIcon from '../OurServices/Icons/social-media.png';
-// import videoIcon from '../OurServices/Icons/video.png';
-// import strategyIcon from '../OurServices/Icons/strategy.png';
-// import freebiesIcon from '../OurServices/Icons/freebies.png';
+import socialMediaIcon from '../OurServices/Icons/social-media.png';
+import videoIcon from '../OurServices/Icons/video.png';
+import strategyIcon from '../OurServices/Icons/strategy.gif';
+import freebiesIcon from '../OurServices/Icons/free.png';
 
 function Services() {
   useEffect(() => {
@@ -59,8 +59,79 @@ function Services() {
           </ul>
         </div>
 
+        {/* Social Media Management & Content Creation */}
+        <div className="serviceSection">
+          <div className="serviceHeader">
+            <img src={socialMediaIcon} alt="Digital Marketing" className="serviceIcon" />
+            <div className="serviceTitle">
+              <h3>Social Media Management & Content Creation</h3>
+              <p>Build an audience. Stay relevant. Stay ahead.</p>
+            </div>
+          </div>
+          <ul className="serviceList">
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Social Media Strategy & Calendar</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Instagram/Facebook/LinkedIn Management</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Content Creation (Posts, Reels, Stories)</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Hashtag & Caption Strategy</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Personal Branding Content</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Carousel & Infographic Design</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Reels & Shorts Editing</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue" />Content Repurposing (for multiple platforms)</li>
+          </ul>
+        </div>
 
-        {/* Other sections (Social Media, Video, Strategy, Freebies) */}
+         {/* Video & Photography (On Request / City-Specific)*/}
+        <div className="serviceSection">
+          <div className="serviceHeader">
+            <img src={videoIcon} alt="Digital Marketing" className="serviceIcon" />
+            <div className="serviceTitle">
+              <h3>Video & Photography (On Request / City-Specific)</h3>
+              <p>Visuals that stop the scroll.</p>
+            </div>
+          </div>
+          <ul className="serviceList">
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Product Photography</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Food / Fashion / Fitness Shoots</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Short Video Reels </li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Promo Video Creation</li>
+          </ul>
+        </div>
+
+        {/* Strategy and Consulting */}
+          <div className="serviceSection">
+          <div className="serviceHeader">
+            <img src={strategyIcon} alt="Digital Marketing" className="serviceIcon strategyGif " style={{cursor:"pointer"}}/>
+            <div className="serviceTitle">
+              <h3>Strategy & Consulting</h3>
+              <p>Get a roadmap, not confusion.</p>
+            </div>
+          </div>
+          <ul className="serviceList">
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Brand Strategy Blueprint</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Growth Plan for Startups</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Content Plan (30/60/90 days)</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Budget Planning for Marketing</li>
+          </ul>
+        </div>
+
+
+{/* Freebies & Entry Services (Great for First-Time Clients) */}
+         <div className="serviceSection">
+          <div className="serviceHeader">
+            <img src={freebiesIcon} alt="Digital Marketing" className="serviceIcon strategyGif " style={{cursor:"pointer"}}/>
+            <div className="serviceTitle">
+              <h3>Freebies & Entry Services (Great for First-Time Clients)</h3>
+              <p>Build trust. Deliver value from Day 1.</p>
+            </div>
+          </div>
+          <ul className="serviceList">
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Free Business Profile Audit</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Free Instagram Optimization Checklist</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>Free 15-min Strategy Call</li>
+            <li><img src={checkmark} className='checkmark' alt="some issue"/>1 Free Custom Post/Reel Design (Sample Work)</li>
+          </ul>
+        </div>
+
 
       </div>
     </div>

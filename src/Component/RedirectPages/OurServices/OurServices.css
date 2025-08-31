@@ -9,7 +9,7 @@
     background-color: rgba(24, 24, 24, 0.918);
     color: white;
     text-align: center;
-    height: 20vh;
+    height: 14vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,11 +77,20 @@
     color: #444;
     word-spacing: 8px;
     color: white;
+    width: fit-content;
 }
 
 .serviceList li:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.strategyGif {
+    width: 93px;
+    height: 98px;
+    margin-right: 15px;
+    border-radius: 51px;
+
 }
 
 /* Mobile View Adjustments */
@@ -124,7 +133,7 @@
 
     .serviceTitle {
         text-align: left;
-        /* border: 2px solid white; */
+        margin-top: 20px;
 
     }
 
@@ -143,6 +152,6 @@
     }
 
     .serviceList li {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
