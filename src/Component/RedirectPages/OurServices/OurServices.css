@@ -106,8 +106,11 @@
     }
 
     .serviceHeader {
-        /* flex-direction: column; */
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding: 7px;
     }
 
     .serviceIcon {
@@ -136,7 +139,7 @@
 
     .serviceList {
         text-align: start;
-        /* background-color: antiquewhite; */
+        padding: 9px;
     }
 
     .serviceList li {
