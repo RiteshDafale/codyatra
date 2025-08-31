@@ -1,61 +1,4 @@
- /* Base Styles */
-/* .serviceMainHeading {
-    background-color: rgb(60 55 55);
-    color: white;
-    text-align: center;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-y: auto;
-} */
-
-/* .serviceContent {
-    padding: 20px;
-} */
-
-/* .serviceSection {
-    margin-bottom: 40px;
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.serviceHeader {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.serviceIcon {
-    width: 40px;
-    height: 40px;
-    margin-right: 15px;
-}
-
-.serviceTitle h3 {
-    font-size: 24px;
-    color: #333;
-}
-
-.serviceTitle p {
-    font-size: 16px;
-    color: #666;
-}
-
-.serviceList {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.serviceList li {
-    font-size: 16px;
-    line-height: 1.8;
-    padding: 5px 0;
-    color: #444;
-}
-    /* Add a wrapper class to prevent global styles affecting other sections */
+/* Add a wrapper class to prevent global styles affecting other sections */
 .servicesContainer {
     width: 100%;
     /* padding: 20px; */
@@ -84,6 +27,15 @@
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 8px;
+    background-color: #131313;
+    /* background-color: #494949; */
+    border-radius: 50px;
+
+}
+
+.checkmark {
+    width: 2vw;
+    margin-right: 4px;
 }
 
 .serviceHeader {
@@ -93,19 +45,24 @@
 }
 
 .serviceIcon {
-    width: 40px;
-    height: 40px;
+    width: 111px;
+    height: 98px;
     margin-right: 15px;
 }
 
 .serviceTitle h3 {
-    font-size: 24px;
-    color: #333;
+    /* font-size: 24px; */
+    /* color: #333; */
+    color: white;
 }
 
 .serviceTitle p {
-    font-size: 16px;
-    color: #666;
+    /* font-size: 16px; */
+    /* color: #666; */
+    color: white;
+    word-spacing: 6px;
+    /* font-family: sans-serif; */
+
 }
 
 .serviceList {
@@ -114,10 +71,17 @@
 }
 
 .serviceList li {
-    font-size: 16px;
-    line-height: 1.8;
-    padding: 5px 0;
+    font-size: 20px;
+    line-height: 1.7;
+    /* padding: 5px 0; */
     color: #444;
+    word-spacing: 8px;
+    color: white;
+}
+
+.serviceList li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Mobile View Adjustments */
@@ -127,42 +91,7 @@
 /* Mobile View Adjustments */
 @media (min-width: 320px) and (max-width: 600px) {
 
-     /* .serviceMainHeading {
-        height: 15vh; 
-        padding: 10px;
-    }
-
-    .serviceContent {
-        padding: 10px;
-    }
-
-    .serviceSection {
-        padding: 10px;
-    }
-
-    .serviceHeader {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .serviceIcon {
-        width: 30px;
-        height: 30px;
-    }
-
-    .serviceTitle h3 {
-        font-size: 20px;
-    }
-
-    .serviceTitle p {
-        font-size: 14px;
-    }
-
-    .serviceList li {
-        font-size: 14px;
-    }  */
-
-     .serviceMainHeading {
+    .serviceMainHeading {
         height: 15vh;
         padding: 10px;
     }
@@ -173,6 +102,7 @@
 
     .serviceSection {
         padding: 10px;
+        border-radius: 30px;
     }
 
     .serviceHeader {
@@ -189,18 +119,27 @@
         font-size: 20px;
     }
 
-.serviceTitle {
-    text-align: center;
-}
-    .serviceTitle p {
-        font-size: 14px;
+    .serviceTitle {
+        text-align: left;
+        /* border: 2px solid white; */
+
     }
 
-    .serviceList{
-        text-align: center;
+    .checkmark {
+        width: 5vw;
+        margin-right: 4px;
+    }
+
+    .serviceTitle p {
+        font-size: 18px;
+    }
+
+    .serviceList {
+        text-align: start;
         /* background-color: antiquewhite; */
     }
-       .serviceList li {
+
+    .serviceList li {
         font-size: 16px;
     }
-} 
+}
