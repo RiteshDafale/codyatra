@@ -15,7 +15,7 @@ function About() {
       <main className="about-content container my-5">
         <section className="about-mission mb-5">
           <div className="card mission-card p-4">
-            <h3 className="card-title">Our Mission</h3>
+            <h3 className="card-title section-heading">Our Mission</h3>
             <p>
               We’re not just another digital agency. We’re a <span className="fw-bold">mission-driven team</span> of creatives, strategists, and developers who believe in doing things differently—with <span className="fw-bold">purpose, honesty, and real impact</span>.
             </p>
@@ -46,7 +46,7 @@ function About() {
             <h3 className="section-heading">What We Do</h3>
             <div className="services-list">
               <p>We help you:</p>
-              <ul className="list-group list-group-flush">
+              <ul className="list-group list-group-flush ">
                 <li className="list-group-item">
                   <span className="fw-bold">Build beautiful, functional websites</span> that convert visitors into customers.
                 </li>
@@ -79,11 +79,11 @@ function About() {
               We’re honest about who we are. We're a young agency with a big vision and even bigger commitment.
             </p>
             <div className="new-advantages">
-              <p className="fw-bold">Being new means we're:</p>
+              <p className="fw-bold">Being new m/eans we're:</p>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">More energetic and involved.</li>
-                <li className="list-group-item">More flexible and adaptive.</li>
-                <li className="list-group-item">More hungry to <span className="fw-bold">prove our worth</span>.</li>
+                <li className="list-group-item text-start">More energetic and involved.</li>
+                <li className="list-group-item text-start">More flexible and adaptive.</li>
+                <li className="list-group-item text-start">More hungry to <span className="fw-bold">prove our worth</span>.</li>
               </ul>
             </div>
             <p className="new-promise">

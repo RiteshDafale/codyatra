@@ -72,4 +72,12 @@
     height: 100%;
     object-fit: cover;
   }
+  
+  .owner-content{
+    /* background: aquamarine; */
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    display: flex;
+    /* justify-content: center; */
+  }
 }

@@ -10,7 +10,7 @@ function OwnerDetails() {
         {/* Text Section */}
         <div className="col-lg-6 col-sm-12 mb-4 ownercol">
           <h1 className="text-center mb-4">About Founder</h1>
-          <div className="owner-content d-flex flex-column justify-content-center align-items-center ">
+          <div className="owner-content d-flex flex-column justify-content-center ">
             <p className='text-start'>
               Hi, I’m <span className="highlight-owner">Kanishk Mehta</span>, founder of <span className="highlight-owner">CODYATRA</span>. This isn’t just a company intro — it’s a glimpse into my journey.
             </p>

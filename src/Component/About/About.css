@@ -12,6 +12,10 @@
   margin: 0 auto;
 }
 
+/* .about-content p , .about-content ul li{
+  background-color: black;
+} */
+
 .section-heading {
   font-size: 2.25rem;
   font-weight: 700;
@@ -20,12 +24,15 @@
   color: #5188eae6; /* Main brand color */
 }
 
-.main p, .main li {
+.about-content p , .main li {
   font-size: 1.1rem;
   line-height: 1.7;
   color: #555;
   text-align: start;
+  word-spacing: 5px;
+  /* background-color: black; */
 }
+
 
 /* Header and Branding */
 .about-header {
@@ -65,12 +72,7 @@
     transition: transform 3.3s ease, box-shadow 0.3s ease;
 
 }
-/* 
-.mission-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.286);
-       /*      left bottom  overall */
-} */
+
 
 .card-title {
   color: #333;
