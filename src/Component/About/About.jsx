@@ -46,7 +46,7 @@ function About() {
             <h3 className="section-heading">What We Do</h3>
             <div className="services-list">
               <p>We help you:</p>
-              <ul className="list-group list-group-flush ">
+              <ul className="list-group list-group-flush aboutul  ">
                 <li className="list-group-item">
                   <span className="fw-bold">Build beautiful, functional websites</span> that convert visitors into customers.
                 </li>
@@ -80,7 +80,7 @@ function About() {
             </p>
             <div className="new-advantages">
               <p className="fw-bold">Being new m/eans we're:</p>
-              <ul className="list-group list-group-flush">
+              <ul className="list-group list-group-flush aboutul">
                 <li className="list-group-item text-start">More energetic and involved.</li>
                 <li className="list-group-item text-start">More flexible and adaptive.</li>
                 <li className="list-group-item text-start">More hungry to <span className="fw-bold">prove our worth</span>.</li>
@@ -98,7 +98,7 @@ function About() {
           <div className="card mission-card p-4">
             <h3 className="section-heading">Who We Work With</h3>
             <p>We're the perfect fit for:</p>
-            <ul className="list-group list-group-flush">
+            <ul className="list-group list-group-flush aboutul">
               <li className="list-group-item">Startup founders & entrepreneurs.</li>
               <li className="list-group-item">Local business owners (cafes, gyms, clinics, shops).</li>
               <li className="list-group-item">Personal brands (coaches, creators, professionals).</li>

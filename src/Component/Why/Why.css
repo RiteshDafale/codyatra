@@ -14,7 +14,10 @@
 
 .ans {
     line-height: 27px;
+    margin-left: 16px;
 }
+
+
 
 .why-para {
     /* border:2px solid black; */
@@ -86,6 +89,7 @@ ol li {
     width: 37vw;
     height: 59vh;
     margin-top: 70px;
+    margin-left: 26px;
 }
 
 .imgIcon img {

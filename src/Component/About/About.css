@@ -37,16 +37,17 @@
 
 .about-content p,
 .about-content li {
-font-size: 1.30rem;
-    line-height: 24px;
-    color: #444;
-    word-spacing: 5px;
-    /* color: white; */
-    text-align: start;
+  font-size: 1.30rem;
+  line-height: 24px;
+  color: #444;
+  word-spacing: 5px;
+  /* color: white; */
+  text-align: start;
 }
-.about-content p{
 
-   line-height: 34px;
+.about-content p {
+
+  line-height: 34px;
 }
 
 
@@ -81,7 +82,8 @@ font-size: 1.30rem;
 
 
 .codyatra-brand {
-  color: #265ab7;;
+  color: #265ab7;
+  ;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -91,18 +93,19 @@ font-size: 1.30rem;
   border: none;
   border-radius: 12px;
   color: black;
-  background-color: #d9e1ed;;
+  background-color: #d9e1ed;
+  ;
   /* background-color: #d8e6fb; */
   /* background-color: black;; */
-  box-shadow:10px 10px 10px  rgba(0, 0, 0, 0.328);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.328);
   /* box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.286); */
   transition: transform 3.3s ease, box-shadow 0.3s ease;
 
 }
-
-.mission-card:hover{
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.55);
-}
+/* 
+.mission-card:hover {
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.55);
+} */
 
 .card-title {
   color: #333;
@@ -147,8 +150,26 @@ font-size: 1.30rem;
   .about-title {
     font-size: 2rem;
   }
-
+  
   .section-heading {
     font-size: 1.75rem;
   }
+
+  .mission-card {
+    box-shadow: none;
+  }
+  
+  .mission-card p {
+    /* background-color:yellow ; */
+    font-size: 18px;
+    word-spacing: 2px;
+  }
+  .aboutul li{
+    font-size: 19px;
+  }
+  
+.closing-statement{
+   font-size: 1.25rem;
+}
+  
 }

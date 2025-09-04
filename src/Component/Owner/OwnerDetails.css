@@ -4,6 +4,10 @@
   color: #5188ea;
 }
 
+.ownerMainDiv{
+  margin-top: 52px;
+}
+
 .ownercol {
   width: 50% !important;
   /* background-color: aqua; */
