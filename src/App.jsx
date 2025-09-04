@@ -13,14 +13,17 @@ import Dashboard from './Component/Dashboard/Dashboard'
 import FreeTools from './Component/FreeTools/FreeTools'
 import Contact from './Component/Contact/Contact.JSX'
 import {ToastContainer} from 'react-toastify';
+import DarkVeil from './Component/BackFragment';
 
+// import DarkVeil from './Component/BackFragment';
 
 
 
 function App() {
   // background-color: rgb(25 48 96);
   return (
-    <div className='mainBackgroundColor' style={{backgroundColor:"black",color:"white"}} >
+    <div className='mainBackgroundColor' style={{color:"white"}}>
+      <DarkVeil />
 
 <ToastContainer
 position="top-right"

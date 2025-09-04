@@ -4,6 +4,7 @@ import ASCafe from '../Testimonial/videos/ascafe.mp4';
 import chaiChopati from '../Testimonial/videos/chai_chopati.mp4';
 import chaicom from '../Testimonial/videos/chahacom.mp4';
 import chaicom2 from '../Testimonial/videos/chahaCom2.mp4';
+import backColor from '../BackFragment';
 
 const Testimonial = () => {
     useEffect(() => {
@@ -11,7 +12,8 @@ const Testimonial = () => {
     }, []);
 
     return (
-        <div className='testmonialMainDiv' style={{background:"black",}}>
+        <div className='testmonialMainDiv' >
+            <backColor/>
             <h1 className='text-center testimonial-heading text-light'> Testimonials</h1>
             <div className="video-section">
                 <div className="testmonialcolumn">

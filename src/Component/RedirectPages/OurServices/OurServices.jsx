@@ -7,6 +7,12 @@ import socialMediaIcon from '../OurServices/Icons/social-media.png';
 import videoIcon from '../OurServices/Icons/video.png';
 import strategyIcon from '../OurServices/Icons/strategy.gif';
 import freebiesIcon from '../OurServices/Icons/free.png';
+import ScrollFloatText from '../OurServices/ScrollFloatText';
+// E:\Naresh IT\Startup Plan\Codyatra\portfolio\src\Component\ScrollFloatText.jsx
+
+
+
+ 
 
 function Services() {
   useEffect(() => {
@@ -30,7 +36,15 @@ function Services() {
             </div>
           </div>
           {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_T0wLYMTpZbH4LkSoC2ZcRTkoTJg2_oksYw&s" alt="some issue" /> */}
+         
           <ul className="serviceList">
+             <ScrollFloatText
+                animationDuration={2}
+                ease='power4.out'
+                scrollStart='top bottom '
+                scrollEnd='bottom center'
+                stagger={0.03}
+              >
             <li><img src={checkmark} className='checkmark' alt="some issue" />Custom Business Website (Static & Dynamic)</li>
             <li><img src={checkmark} className='checkmark' alt="some issue" />E-commerce Website (Custom)</li>
             <li><img src={checkmark} className='checkmark' alt="some issue" />Landing Pages (Sales, Lead Generation, Event)</li>
@@ -39,6 +53,7 @@ function Services() {
             <li><img src={checkmark} className='checkmark' alt="some issue" />Domain + Hosting Setup</li>
             <li><img src={checkmark} className='checkmark' alt="some issue" />Website Maintenance & Support</li>
             <li><img src={checkmark} className='checkmark' alt="some issue" />Website Speed & SEO Optimization</li>
+            </ScrollFloatText>
           </ul>
         </div>
 
@@ -52,10 +67,18 @@ function Services() {
             </div>
           </div>
           <ul className="serviceList">
+              <ScrollFloatText
+                animationDuration={2}
+                ease='power4.out'
+                scrollStart='top bottom '
+                scrollEnd='bottom center'
+                stagger={0.03}
+              >
             <li><img src={checkmark} className='checkmark' alt="some issue" />Google Ads (Search, Display, YouTube)</li>
             <li><img src={checkmark} className='checkmark' alt="some issue" />Meta Ads (Facebook & Instagram)</li>
             <li><img src={checkmark} className='checkmark' alt="some issue" />LinkedIn Ads (B2B Lead Generation)</li>
             <li><img src={checkmark} className='checkmark' alt="some issue" />Social Media Ads Funnel Strategy</li>
+            </ScrollFloatText>
           </ul>
         </div>
 

@@ -8,7 +8,7 @@ function Footer() {
     <div className='container-fluid bg-dark footer text-light d-flex flex-column justify-content-center align-items-center'>
       <div className="row  w-full">
         <div className="col-lg-4 col-sm-12 footercolumn firstcol d-flex flex-column justify-content-center align-items-center">
-          <div className="text text-center  px-2 mt-2">
+          <div className="text text-start  px-2 mt-2">
             <p>
               <span className='fw-bolder' style={{ color: "#5188eae6" }}>CODYATRA </span>was born with a clear <span className='fw-bold'>vision:</span> To help startups, small businesses,
               personal brands, and local entrepreneurs grow with digital clarity—without
@@ -18,7 +18,7 @@ function Footer() {
         </div>
         <div className="col-lg-4 col-sm-12 footercolumn d-flex flex-column justify-content-center align-items-center ">
           <div className="servicesCotnent my-2">
-            <h3 className='text-center'>Services</h3>
+            <h3 className='text-center mt-2'>Services</h3>
             <div className="list">
               <ul>
                 <li>Website & App Development</li>
@@ -49,10 +49,7 @@ function Footer() {
               }}></i>
           </div>
           <div className="instagram">
-            <i class="fa-brands fa-linkedin insticon"
-              onClick={() => {
-                document.location.href = "https://www.Linkedin.com/"
-              }}></i>
+            <i class="fa-brands fa-whatsapp insticon"></i>
           </div>
           <div className="instagram">
             <i class="fa-regular fa-envelope insticon"
