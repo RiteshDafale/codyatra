@@ -20,7 +20,7 @@ import {ToastContainer} from 'react-toastify';
 function App() {
   // background-color: rgb(25 48 96);
   return (
-    <div className='mainBackgroundColor' >
+    <div className='mainBackgroundColor' style={{backgroundColor:"black",color:"white"}} >
 
 <ToastContainer
 position="top-right"

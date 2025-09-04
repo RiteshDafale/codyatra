@@ -11,8 +11,8 @@ const Testimonial = () => {
     }, []);
 
     return (
-        <div className='testmonialMainDiv'>
-            <h1 className='text-center testimonial-heading'>Testimonials</h1>
+        <div className='testmonialMainDiv' style={{background:"black",}}>
+            <h1 className='text-center testimonial-heading text-light'> Testimonials</h1>
             <div className="video-section">
                 <div className="testmonialcolumn">
                     <div className="video">
