@@ -1,45 +1,68 @@
 /* Core Page Layout and Typography */
 .about-page {
-  font-family: 'Poppins', sans-serif; /* A clean, modern font */
+  font-family: 'Poppins', sans-serif;
+  /* A clean, modern font */
   color: #333;
-  padding: 10px 0;
+  /* padding: 10px 0; */
 }
 
 .about-content {
   /* max-width: 900px; */
   /* background-color: red; */
-  width:50% I !important;
+  width: 50% I !important;
   margin: 0 auto;
 }
 
-/* .about-content p , .about-content ul li{
-  background-color: black;
-} */
+.aboutMainHeading {
+  background-color: rgba(24, 24, 24, 0.918);
+  color: white;
+  text-align: center;
+  height: 14vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
 
 .section-heading {
   font-size: 2.25rem;
   font-weight: 700;
   margin-bottom: 2rem;
   text-align: center;
-  color: #5188eae6; /* Main brand color */
+  color: #5188eae6;
+  /* Main brand color */
 }
 
-.about-content p , .main li {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #555;
-  text-align: start;
-  word-spacing: 5px;
-  /* background-color: black; */
+.about-content p,
+.about-content li {
+font-size: 1.30rem;
+    line-height: 24px;
+    color: #444;
+    word-spacing: 5px;
+    /* color: white; */
+    text-align: start;
 }
+.about-content p{
+
+   line-height: 34px;
+}
+
+
 
 
 /* Header and Branding */
 .about-header {
-  background-color: #f8f9fa;
-  /* background-color: red; */
-
-  border-bottom: 1px solid #dee2e6;
+  background-color: rgba(24, 24, 24, 0.918);
+  color: white;
+  text-align: center;
+  height: 14vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
 }
 
 .about-title {
@@ -55,8 +78,10 @@
   font-size: 1.25rem;
 }
 
+
+
 .codyatra-brand {
-  color: #5188eae6;
+  color: #265ab7;;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -65,14 +90,19 @@
 .mission-card {
   border: none;
   border-radius: 12px;
-    /* background-color: #f0f6ff; */
-    background-color: #d8e6fb;
-    box-shadow: 0 14px 20px rgba(0, 0, 0, 0.05);
-     /* box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.286); */
-    transition: transform 3.3s ease, box-shadow 0.3s ease;
+  color: black;
+  background-color: #d9e1ed;;
+  /* background-color: #d8e6fb; */
+  /* background-color: black;; */
+  box-shadow:10px 10px 10px  rgba(0, 0, 0, 0.328);
+  /* box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.286); */
+  transition: transform 3.3s ease, box-shadow 0.3s ease;
 
 }
 
+.mission-card:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.55);
+}
 
 .card-title {
   color: #333;
@@ -117,7 +147,7 @@
   .about-title {
     font-size: 2rem;
   }
-  
+
   .section-heading {
     font-size: 1.75rem;
   }

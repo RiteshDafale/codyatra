@@ -11,9 +11,11 @@
 
 /* Text styling */
 .owner-content {
-
-  /* line-height: 1.5; */
-  /* text-align: justify; */
+ /* background: aquamarine; */
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    display: flex;
+    /* justify-content: center; */
 }
 
 .owner-content p {
@@ -42,6 +44,10 @@
 /* Responsive adjustments */
 /* @media (min-height: 645px) and (max-width: 600px)  */
 @media (min-width:320px) and (max-width: 600px) {
+
+.ownerMainDiv{
+  margin-top: 67px;
+}
 
   .owner-content p {
     text-align: center;
@@ -73,11 +79,5 @@
     object-fit: cover;
   }
   
-  .owner-content{
-    /* background: aquamarine; */
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    display: flex;
-    /* justify-content: center; */
-  }
+
 }

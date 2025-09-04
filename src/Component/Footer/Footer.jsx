@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='container-fluid bg-dark footer text-light d-flex flex-column justify-content-center align-items-center'>
       <div className="row  w-full">
-        <div className="col-lg-3 col-sm-12 footercolumn firstcol d-flex flex-column justify-content-center align-items-center">
+        <div className="col-lg-4 col-sm-12 footercolumn firstcol d-flex flex-column justify-content-center align-items-center">
           <div className="text text-center  px-2 mt-2">
             <p>
               <span className='fw-bolder' style={{ color: "#5188eae6" }}>CODYATRA </span>was born with a clear <span className='fw-bold'>vision:</span> To help startups, small businesses,
@@ -16,7 +16,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="col-lg-3 col-sm-12 footercolumn d-flex flex-column justify-content-center align-items-center ">
+        <div className="col-lg-4 col-sm-12 footercolumn d-flex flex-column justify-content-center align-items-center ">
           <div className="servicesCotnent my-2">
             <h3 className='text-center'>Services</h3>
             <div className="list">
@@ -31,21 +31,10 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-sm-12 footercolumn">
-          <h3 className='text-center'>Important Links</h3>
-          <div className="link  ">
-            <ul>
-              <li><p className='text-center'><a class="link-opacity-25-hover" href="/codyatra">Home</a></p></li>
-              <li><p className='text-center'><a class="link-opacity-25-hover" href="/codyatra/outservices">Our Services</a></p></li>
-              <li><p className='text-center'><a class="link-opacity-25-hover" href="/codyatra/pricingplan">Pricing Plan</a></p></li>
-              <li><p className='text-center'><a class="link-opacity-25-hover" href="/codyatra/testmonial">Testimonial</a></p></li>
-              <li><p className='text-center'><a class="link-opacity-25-hover" href="/codyatra/Dashboard">Dashboard</a></p></li>
-              <li><p className='text-center'><a class="link-opacity-25-hover" href="/codyatra/FreeTools">Free Tools</a></p></li>
-              <li><p className='text-center'><a class="link-opacity-25-hover" href="/codyatra/about">About Codyatra</a></p></li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-12 footercolumn d-flex justify-content-center align-items-center">
+       
+        <div className="col-lg-4 col-sm-12 footercolumn d-flex justify-content-center align-items-center flex-column ">
+          <h3>Social Media </h3>
+          <div className=' d-flex '>
           <div className="instagram">
             <i class="fa-brands fa-instagram insticon " title='Instagram'
               onClick={() => {
@@ -70,6 +59,7 @@ function Footer() {
               onClick={() => {
                 document.location.href = "#"
               }}></i>
+          </div>
           </div>
         </div>
       </div>

@@ -7,15 +7,15 @@ function About() {
   })
   return (
     <div className="about-page">
-      <header className="about-header text-center p-2">
+      {/* <header className="about-header text-center">
         <h1 className="about-title  fw-bold">Who We Are & Why We Exist</h1>
         <p className="about-subtitle text-center">Welcome to <span className="codyatra-brand">Codyatra</span>—Your Growth Partner for the Digital Journey.</p>
-      </header>
+      </header> */}
 
       <main className="about-content container my-5">
         <section className="about-mission mb-5">
           <div className="card mission-card p-4">
-            <h3 className="card-title section-heading">Our Mission</h3>
+             <h3 className="section-heading">Our Mission</h3>
             <p>
               We’re not just another digital agency. We’re a <span className="fw-bold">mission-driven team</span> of creatives, strategists, and developers who believe in doing things differently—with <span className="fw-bold">purpose, honesty, and real impact</span>.
             </p>
@@ -34,7 +34,7 @@ function About() {
             <p>
               So, we decided to create <span className="fw-bold">Something Better, Something Real, Something that Actually Cares</span>.
             </p>
-            <p className="story-conclusion">
+            <p className="">
               That’s how <span className="codyatra-brand">Codyatra</span> began—a journey (<span className="fw-bold">"Yatra"</span>) to bring clarity, creativity, and strategy back to the digital lives of modern businesses.
             </p>
           </div>

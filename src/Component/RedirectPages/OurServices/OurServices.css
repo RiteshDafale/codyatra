@@ -7,6 +7,7 @@
 /* Base Styles for Service Section */
 .serviceMainHeading {
     background-color: rgba(24, 24, 24, 0.918);
+      /* background-color: #d9e1ed;; */
     color: white;
     text-align: center;
     height: 14vh;
@@ -27,7 +28,8 @@
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 8px;
-    background-color: #131313;
+    /* background-color: #131313; */
+      background-color: #d9e1ed;;
     /* background-color: #494949; */
     border-radius: 50px;
 
@@ -54,16 +56,16 @@
     /* font-size: 24px; */
     /* color: #333; */
     color: white;
+    color:black;
 }
 
 .serviceTitle p {
-    /* font-size: 16px; */
-    /* color: #666; */
-    color: white;
-    word-spacing: 6px;
-    /* font-family: sans-serif; */
 
+     color:black;
+    word-spacing: 6px; 
 }
+
+
 
 .serviceList {
     list-style-type: none;
@@ -76,7 +78,7 @@
     /* padding: 5px 0; */
     color: #444;
     word-spacing: 8px;
-    color: white;
+    color: black;
     width: fit-content;
 }
 

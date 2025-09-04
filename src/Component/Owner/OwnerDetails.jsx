@@ -4,12 +4,15 @@ import OwnerImage from '../Owner/OwnerImage/owner.jpg';
 
 function OwnerDetails() {
   return (
-    <div className="container-fluid py-3  d-flex flex-col justify-content-center align-items-center">
+    <div className="ownerMainDiv container-fluid py-3  d-flex flex-col justify-content-center align-items-center">
       <div className="row align-items-center">
 
+          <h1 className="text-center mb-4">About Founder</h1>
         {/* Text Section */}
         <div className="col-lg-6 col-sm-12 mb-4 ownercol">
-          <h1 className="text-center mb-4">About Founder</h1>
+          {/* <div className='bg-primary'> */}
+
+          {/* </div> */}
           <div className="owner-content d-flex flex-column justify-content-center ">
             <p className='text-start'>
               Hi, I’m <span className="highlight-owner">Kanishk Mehta</span>, founder of <span className="highlight-owner">CODYATRA</span>. This isn’t just a company intro — it’s a glimpse into my journey.

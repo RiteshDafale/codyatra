@@ -12,8 +12,8 @@
    /* width: 25% !important;
    height: 100%;
    border: 2px solid white; */
-   width: 25% !important;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+   width: 33.3% !important;
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
   margin-bottom: 20px;
   min-height: 250px;
 }
@@ -90,7 +90,7 @@
    .footercolumn {
       width: 100% !important;
       height: 100%;
-      border: 2px solid white;
+      /* border: 2px solid white; */
        /* background-color: aqua; */
    }
 }

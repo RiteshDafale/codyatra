@@ -2,6 +2,14 @@
     color: #5188eae6;
 }
 
+.whyColumn {
+    width: 50% !important;
+    /* border: 2px solid pink; */
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
 .ans {
     line-height: 27px;
 }
@@ -21,18 +29,18 @@
     width: 100%;
     /* background-color: red; */
     height: 100vh;
+    display: flex;
 }
 
 .why-mainDiv p {
     /* background-color: red; */
-  word-spacing: 6px;
-  letter-spacing: 0.5px;
+    word-spacing: 6px;
+    letter-spacing: 0.5px;
     font-size: 19px;
 }
 
-.WhyheadPara{
-    line-height: 18x;
-    /* background-color: purple; */
+.WhyheadPara {
+    line-height: 13px;
 }
 
 .unorderList li {
@@ -51,13 +59,13 @@ ol li {
     justify-content: center;
     align-items: center; */
 
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    margin-top: 117px;
+    /* margin-top: 72px; */
 }
 
 .text-align {
@@ -71,19 +79,65 @@ ol li {
     align-items: center;
 }
 
+
+.imgIcon {
+    width: 37vw;
+    height: 59vh;
+    margin-top: 70px;
+}
+
+.imgIcon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 72px;
+    ;
+}
+
 .orderList ol li {
     width: 25%;
 }
 
+.icons {
+    /* background-color: red;; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-top:89px; */
+    height: 100%;
+    width: 50%;
+}
+
+.whytextContent {
+    margin-top: 70px;
+}
 
 
 
 @media (min-width:320px) and (max-width: 600px) {
+    .whyColumn {
+        width: 100% !important;
+        /* border: 2px solid pink; */
+    }
+
+    .why_subDiv {
+        /* background-color: red; */
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .whytextContent{
+        margin-top: 0;;
+    }
+
     .why-mainDiv {
         width: 100%;
-        height: 100vh;
+        height: auto;
+        display: block;
+        margin-top: 67px;
         /* background-color: cornsilk; */
     }
+
 
     .why_subDiv {
         width: 100%;
@@ -94,8 +148,12 @@ ol li {
         align-items: center;
     }
 
+    .headpara1{
+        line-height: 20px;
+    }
+
     .why_subDiv {
-        margin-top: 40px;
+        /* margin-top: 40px; */
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -116,5 +174,7 @@ ol li {
     .orderList ol li {
         width: 100%;
     }
+
+
 
 }
