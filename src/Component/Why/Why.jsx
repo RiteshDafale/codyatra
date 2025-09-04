@@ -17,8 +17,8 @@ function Why() {
   const [isopen, setIsopen] = useState(false);
   return (
     <div className="container-fluid why-mainDiv mTop " >
-      <div className=''>
       <div className="row ">
+      {/* <div className=''> */}
         <div className='col-lg-6 col-sm-12 whyColumn  why_subDiv '>
           <div className="whytextContent">
           <h2 className='text-center headWhy fw-bold display-5  '>
@@ -30,7 +30,7 @@ function Why() {
             </p>
 
             <div className='WhyheadPara '>
-              <p className='border-dark   para'>
+              <p className='border-dark headpara1   para'>
                 That’s exactly what <span className='fw-bold'>Codyatra </span> stands for.
               </p>
 
@@ -45,7 +45,7 @@ function Why() {
             <img src={icon2} alt='intro'></img>
           </div>
         </div>
-      </div>
+      {/* </div> */}
       </div>
     </div>
   )

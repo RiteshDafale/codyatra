@@ -2,6 +2,8 @@
     color: #5188eae6;
 }
 
+
+
 .whyColumn {
     width: 50% !important;
     /* border: 2px solid pink; */
@@ -29,7 +31,7 @@
     width: 100%;
     /* background-color: red; */
     height: 100vh;
-    display: flex;
+    /* display: flex; */
 }
 
 .why-mainDiv p {
@@ -126,15 +128,16 @@ ol li {
         width: 100%;
     }
 
-    .whytextContent{
-        margin-top: 0;;
+    .whytextContent {
+        margin-top: 0;
+        ;
     }
 
     .why-mainDiv {
         width: 100%;
         height: auto;
         display: block;
-        margin-top: 67px;
+        margin-top: 21px;
         /* background-color: cornsilk; */
     }
 
@@ -148,8 +151,12 @@ ol li {
         align-items: center;
     }
 
-    .headpara1{
+    .headpara1 {
         line-height: 20px;
+    }
+
+    .imgIcon img {
+        border-radius: 21px;
     }
 
     .why_subDiv {
