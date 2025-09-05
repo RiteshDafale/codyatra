@@ -20,7 +20,7 @@ function Why() {
   }
   const [isopen, setIsopen] = useState(false);
   return (
-    <div className="container-fluid why-mainDiv mTop " >
+    <div className="why-mainDiv mTop " >
       <div className="row ">
         {/* <div className=''> */}
         <div className="col-lg-6 col-sm-12 whyColumn icons ">

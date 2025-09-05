@@ -1,7 +1,5 @@
 .mTop h2 {
-   color:#8822ff
-
-
+    color: #8822ff
 }
 
 .whyColumn {
@@ -121,6 +119,13 @@ ol li {
 
 
 @media (min-width:320px) and (max-width: 600px) {
+    .whyimgIcon {
+        /* width: 37vw; */
+        height: 51vh;
+        /* margin-top: 70px; */
+        margin-left: 16px;
+    }
+
     .whyColumn {
         width: 100% !important;
         /* border: 2px solid pink; */
@@ -156,7 +161,7 @@ ol li {
     }
 
     .headpara1 {
-        line-height: 20px;
+        line-height: 28px;
     }
 
     .imgIcon img {
