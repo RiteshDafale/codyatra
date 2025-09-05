@@ -1,16 +1,8 @@
 .mTop h2 {
-   color: radial-gradient(circle, rgba(219, 7, 166, 0.83) 0%, rgba(148, 187, 233, 1) 100%);
-}
+   color:#8822ff
 
-   .gradient-text {
-      /* font-size: 60px; */
-      font-weight: bold;
-      background: linear-gradient(90deg, #ff6a00, #ee0979);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      color: transparent;
-    }
+
+}
 
 .whyColumn {
     width: 50% !important;

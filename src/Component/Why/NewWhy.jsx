@@ -1,6 +1,7 @@
 import React from 'react'
 import './Why.css'
 
+
 function NewWhy() {
     return (
         <div>
