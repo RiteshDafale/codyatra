@@ -10,11 +10,12 @@
 
 .ownerMainDiv h1 {
   /* color: #8822ff; */
+  color: black;
 }
 
 .subheading {
   font-size: 1.55rem;
-  color: #8822ff;
+  color: black;
   font-weight: 800;
 }
 
@@ -35,6 +36,7 @@
 .owner-content p {
   margin-bottom: 5px;
   font-size: 1.15rem;
+  color: black;
 }
 
 /* Image container and image styling */
