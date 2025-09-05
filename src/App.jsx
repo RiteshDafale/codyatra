@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Component/Home/Home'
 import Navigation from './Component/Header/Navigation'
@@ -7,12 +7,13 @@ import Footer from './Component/Footer/Footer'
 import About from './Component/About/About'
 import NewWhy from './Component/Why/NewWhy'
 import OurServices from './Component/RedirectPages/OurServices/OurServices'
-import Testimonial from './Component/Testimonial/Testimonial'
+// import Testimonial from './Component/Testimonial/Testimonial'
+const Testimonial = React.lazy(() => import('./Component/Testimonial/Testimonial'));
 import Pricing from './Component/PricingPlan/Pricing'
 import Dashboard from './Component/Dashboard/Dashboard'
 import FreeTools from './Component/FreeTools/FreeTools'
 import Contact from './Component/Contact/Contact.JSX'
-import {ToastContainer} from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import DarkVeil from './Component/BackFragment';
 
 // import DarkVeil from './Component/BackFragment';
@@ -22,35 +23,41 @@ import DarkVeil from './Component/BackFragment';
 function App() {
   // background-color: rgb(25 48 96);
   return (
-    <div className='mainBackgroundColor' style={{color:"white"}}>
+    <div className='mainBackgroundColor' style={{ color: "white" }}>
       <DarkVeil />
 
-<ToastContainer
-position="top-right"
-autoClose={5000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick={false}
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="light"
-// transition={{Bounce}}
-/>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      // transition={{Bounce}}
+      />
 
       <Navigation />
-      <Routes>
-        <Route path="/codyatra" element={<Home />}></Route>
-        <Route path="/codyatra/about" element={<About />} />
-        <Route path='/codyatra/Why' element={<NewWhy />} />
-        <Route path='/codyatra/outservices' element={<OurServices />} />
-        <Route path='/codyatra/testmonial' element={<Testimonial />}></Route>
-        <Route path='/codyatra/pricingplan' element={<Pricing />}></Route>
-        <Route path='/codyatra/Dashboard' element={<Dashboard />}></Route>
-        <Route path='/codyatra/FreeTools' element={<FreeTools />}></Route>
-        <Route path='/codyatra/Contact' element={<Contact />}></Route>
-      </Routes>
+      <Suspense fallback={<div>Loading ...</div>}>
+        <Routes>
+          <Route path="/codyatra" element={<Home />}></Route>
+          <Route path="/codyatra/about" element={<About />} />
+          <Route path='/codyatra/Why' element={<NewWhy />} />
+          <Route path='/codyatra/outservices' element={<OurServices />} />
+
+          {/* <Routes> */}
+          <Route path='/codyatra/testmonial' element={<Testimonial />}></Route>
+          {/* </Routes> */}
+
+          <Route path='/codyatra/pricingplan' element={<Pricing />}></Route>
+          <Route path='/codyatra/Dashboard' element={<Dashboard />}></Route>
+          <Route path='/codyatra/FreeTools' element={<FreeTools />}></Route>
+          <Route path='/codyatra/Contact' element={<Contact />}></Route>
+        </Routes>
+      </Suspense>
       <Footer />
     </div>
   )
