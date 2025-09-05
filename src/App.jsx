@@ -4,15 +4,14 @@ import Home from './Component/Home/Home'
 import Navigation from './Component/Header/Navigation'
 import './App.css'
 import Footer from './Component/Footer/Footer'
-import About from './Component/About/About'
-import NewWhy from './Component/Why/NewWhy'
-import OurServices from './Component/RedirectPages/OurServices/OurServices'
-// import Testimonial from './Component/Testimonial/Testimonial'
+const About = React.lazy(()=> import ('./Component/About/About'));
+const NewWhy = React.lazy(()=> import( './Component/Why/NewWhy'));
+const OurServices = React.lazy(()=> import('./Component/RedirectPages/OurServices/OurServices'));
 const Testimonial = React.lazy(() => import('./Component/Testimonial/Testimonial'));
-import Pricing from './Component/PricingPlan/Pricing'
-import Dashboard from './Component/Dashboard/Dashboard'
-import FreeTools from './Component/FreeTools/FreeTools'
-import Contact from './Component/Contact/Contact.JSX'
+const Pricing = React.lazy(()=>import('./Component/PricingPlan/Pricing'));
+const Dashboard = React.lazy(()=> import('./Component/Dashboard/Dashboard')); 
+const FreeTools = React.lazy(()=> import ('./Component/FreeTools/FreeTools')) ;
+const Contact = React.lazy(()=> import('./Component/Contact/Contact.JSX'));
 import { ToastContainer } from 'react-toastify';
 import DarkVeil from './Component/BackFragment';
 
