@@ -41,7 +41,7 @@ function App() {
 
       <Navigation />
       <Suspense fallback={<div>Loading ...</div>}>
-        <DarkVeil />
+        {/* <DarkVeil /> */}
         <Routes>
           <Route path="/codyatra" element={<Home />}></Route>
           <Route path="/codyatra/about" element={<About />} />

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .mTop h2 {
-    color: #8822ff
+    color: black; 
 }
 
 .whyColumn {
@@ -37,9 +39,12 @@
 
 .why-mainDiv p {
     /* background-color: red; */
-    word-spacing: 6px;
+  word-spacing: 6px;
     letter-spacing: 0.5px;
     font-size: 19px;
+    color: black;
+    /* font-family:Arial; */
+    
 }
 
 .WhyheadPara {
