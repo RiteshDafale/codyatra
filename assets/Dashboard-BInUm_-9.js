@@ -1,0 +1,1 @@
+import{r as e,j as t}from"./index-B6T7eN6i.js";function r(){return e.useState(()=>{document.title="Dashboard - Codyatra"}),t.jsx("div",{children:t.jsx("h3",{className:"text-danger text-center my-4",style:{height:"100vh"},children:"Comming soon --- under Maintainance"})})}export{r as default};
