@@ -23,7 +23,7 @@ function App() {
   // background-color: rgb(25 48 96);
   return (
     <div className='mainBackgroundColor' style={{ color: "white" }}>
-      <DarkVeil />
+    
 
       <ToastContainer
         position="top-right"
@@ -41,16 +41,13 @@ function App() {
 
       <Navigation />
       <Suspense fallback={<div>Loading ...</div>}>
+        <DarkVeil />
         <Routes>
           <Route path="/codyatra" element={<Home />}></Route>
           <Route path="/codyatra/about" element={<About />} />
           <Route path='/codyatra/Why' element={<NewWhy />} />
           <Route path='/codyatra/outservices' element={<OurServices />} />
-
-          {/* <Routes> */}
           <Route path='/codyatra/testmonial' element={<Testimonial />}></Route>
-          {/* </Routes> */}
-
           <Route path='/codyatra/pricingplan' element={<Pricing />}></Route>
           <Route path='/codyatra/Dashboard' element={<Dashboard />}></Route>
           <Route path='/codyatra/FreeTools' element={<FreeTools />}></Route>

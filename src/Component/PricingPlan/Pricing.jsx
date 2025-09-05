@@ -20,9 +20,9 @@ function Pricing() {
   useEffect(() => {
     document.title = "Codyatra - Pricing Plans";
 
-    const timer = setTimeout(() => {
-      setpopup(true);
-    }, 500);
+    // const timer = setTimeout(() => {
+    //   setpopup(true);
+    // }, 500);
 
     return () => clearTimeout(timer);
   }, []);

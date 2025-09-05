@@ -1,8 +1,7 @@
 /* Main Contact Section */
 .contactMainDiv {
-  height: 23vh;
+  /* min-height: 100vh; */
   width: 100%;
-  background-color: #222;
   color: white;
   display: flex;
   justify-content: center;
@@ -20,7 +19,7 @@
 
 /* Contact Details Section */
 .contact-details {
-  padding: 20px;
+  padding: 4px;
 }
 
 .contactCol {
@@ -38,19 +37,23 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.mainphone , .mainlocation , .mainemail {
+.mainphone,
+.mainlocation,
+.mainemail {
   /* background-color: rgba(0, 123, 255, 0.15); */
   /* background-color: rgba(0, 255, 200, 0.15); */
   /* background-color: #EA580C; */
   background-color: #1e3b8a9d;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 
 /* Contact Information (Icons and Text) */
-.phone, .email, .location {
+.phone,
+.email,
+.location {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -59,17 +62,21 @@
   padding: 15px;
 }
 
-.phone i, .email i, .location i {
+.phone i,
+.email i,
+.location i {
   font-size: 40px;
   color: #ffffff;
   margin-bottom: 15px;
 }
 
-.phone p, .email p, .location p {
+.phone p,
+.email p,
+.location p {
   font-size: 1.2rem;
   font-weight: 500;
   margin: 10px 0;
-   color: #ffffff;
+  color: #ffffff;
 }
 
 /* Contact Button */
@@ -88,12 +95,97 @@
   background-color: #01579b;
 }
 
+.Contact-Form {
+  background-color: rgba(135, 173, 241, 0.15);
+  /* subtle transparent blue */
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 40px 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(10px);
+  /* Glassmorphism effect */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+/* Form Heading */
+.Contact-Form h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+/* Form layout */
+.Contact-Form form {
+  width: 100%;
+}
+
+/* Input Containers */
+.contactinputDiv {
+  margin-bottom: 25px;
+}
+
+/* Input Fields */
+.contactinputDiv input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 0 20px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Placeholder Styling */
+.contactinputDiv input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+
+/* Input Hover/Focus States */
+.contactinputDiv input:hover,
+.contactinputDiv input:focus {
+  border-color: white;
+  color: black;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.42);
+  cursor: progress;
+}
+
+/* Submit Button */
+.Contact-Form button[type="submit"] {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #0277bd;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Contact-Form button[type="submit"]:hover {
+  background-color: #01579b;
+  transform: scale(1.05);
+}
+
 /* Media Query for Mobile Screens */
 @media (min-height: 645px) and (max-width: 600px) {
 
- .row{
-  background-color: #ffffff;
- }
+  .row {
+    background-color: #ffffff;
+  }
 
   .contactCol {
     width: 100% !important;
@@ -105,13 +197,31 @@
     font-size: 2rem;
   }
 
-  .phone p, .email p, .location p {
+  .phone p,
+  .email p,
+  .location p {
     font-size: 1rem;
   }
 
   .contactBtn {
     font-size: 0.9rem;
   }
+
+  .Contact-Form {
+    padding: 30px 20px;
+    width:115%;
+  }
+
+  .Contact-Form h1 {
+    font-size: 2rem;
+  }
+
+  .contactinputDiv input {
+    font-size: 16px;
+    height: 45px;
+  }
+
+ 
 }
 
 /* Responsive Design for Larger Screens */
