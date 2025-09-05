@@ -30,6 +30,7 @@
   padding: 20px;
   margin: 10px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .contactCol:hover {
@@ -37,17 +38,16 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.mainphone {
-  background-color: #e0f7fa;
+.mainphone , .mainlocation , .mainemail {
+  /* background-color: rgba(0, 123, 255, 0.15); */
+  /* background-color: rgba(0, 255, 200, 0.15); */
+  /* background-color: #EA580C; */
+  background-color: #1e3b8a9d;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.mainemail {
-  background-color: #e8f5e9;
-}
-
-.mainlocation {
-  background-color: #fff3e0;
-}
 
 /* Contact Information (Icons and Text) */
 .phone, .email, .location {
@@ -61,7 +61,7 @@
 
 .phone i, .email i, .location i {
   font-size: 40px;
-  color: #0277bd;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
@@ -69,6 +69,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   margin: 10px 0;
+   color: #ffffff;
 }
 
 /* Contact Button */
@@ -89,6 +90,11 @@
 
 /* Media Query for Mobile Screens */
 @media (min-height: 645px) and (max-width: 600px) {
+
+ .row{
+  background-color: #ffffff;
+ }
+
   .contactCol {
     width: 100% !important;
     border: 2px solid #ddd;

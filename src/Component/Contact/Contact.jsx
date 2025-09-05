@@ -17,11 +17,18 @@ function Contact() {
       <div className="contact-details">
         <div className="row">
           {/* Phone Contact */}
-          <div className="col-lg-4 contactCol mainphone p-3">
+          {/* <div className="col-lg-4 contactCol mainphone p-3">
             <div className="phone">
               <i className="fa-solid fa-phone"></i>
               <p>9405689914</p>
               <button className="contactBtn">Call Us</button>
+            </div>
+          </div> */}
+              <div className="col-lg-4 contactCol mainemail p-3">
+            <div className="email">
+              <i className="fa-solid fa-phone"></i>
+              <p className='px-4'>9405689914</p>
+              <button className="contactBtn">Email Us</button>
             </div>
           </div>
 
