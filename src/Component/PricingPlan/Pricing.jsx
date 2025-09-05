@@ -229,7 +229,7 @@ function Pricing() {
                 <option value="3 Lakh and above">3 Lakh and above</option>
               </select>
             </div>
-            <div className='border text-center'>
+            <div className=' text-center'>
               <button type="submit" class="btn btn-primary" onClick={handleRequest}>Submit</button>
             </div>
           </form>

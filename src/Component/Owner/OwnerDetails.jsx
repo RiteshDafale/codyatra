@@ -7,7 +7,6 @@ function OwnerDetails() {
   return (
     <div className="ownerMainDiv container-fluid py-3  d-flex flex-col justify-content-center align-items-center">
       <div className="row align-items-center">
-
         <h1 className="text-center mb-4">About Founder</h1>
         {/* Text Section */}
         <div className="col-lg-6 col-sm-12 mb-4 ownercol">

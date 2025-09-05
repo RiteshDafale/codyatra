@@ -34,17 +34,15 @@ function Navigation() {
                                 {/* <a className="nav-link text-light hoverA " href="#" >Testimonial</a> */}
                                 <Link className="nav-link text-light hoverA " to="/codyatra/testmonial">Testimonial</Link>
                             </li>
-                            <li className="nav-item me-2">
-                                {/* <a className="nav-link text-light hoverA  " href="#" >Dashboard</a> */}
-                                <Link className="nav-link text-light hoverA " to="/codyatra/Dashboard"> Dashboard</Link>
+                            {/* <li className="nav-item me-2">
+                                <Link className="nav-link text-light hoverA disabled" aria-disabled="true"  to="/codyatra/Dashboard"> Dashboard</Link>
                             </li>
                             <li className="nav-item me-2">
-                                {/* <a className="nav-link text-light hoverA " href="#" >Free Tools</a> */}
-                                <Link className="nav-link text-light hoverA " to="/codyatra/FreeTools">Free Tools</Link>
-                            </li>
+                                <Link className="nav-link text-light hoverA disabled" aria-disabled="true" to="/codyatra/FreeTools">Free Tools</Link>
+                            </li> */}
                             <li className="nav-item me-2">
                                 {/* <a className="nav-link text-light hoverA " href="#" >Free Tools</a> */}
-                                <Link className="nav-link text-light hoverA " to="/codyatra/about">About Codyatra</Link>
+                                <Link className="nav-link text-light hoverA  "   to="/codyatra/about">About Codyatra</Link>
                             </li>
                         </ul>
                         <form className="d-flex" role="button">

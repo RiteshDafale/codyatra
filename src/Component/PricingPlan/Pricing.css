@@ -82,7 +82,7 @@
 
 .Form-subDiv {
 
-  border: 2px solid black;
+  border: 5px dotted #8822ff;;
   display: flex;
   flex-direction: column;
   justify-content: center;

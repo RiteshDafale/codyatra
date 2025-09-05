@@ -28,10 +28,10 @@
 
 .section-heading {
   font-size: 2.25rem;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 2rem;
   text-align: center;
-  color: #5188eae6;
+  color: #7d0dff;
   /* Main brand color */
 }
 
@@ -39,9 +39,9 @@
 .about-content li {
   font-size: 1.30rem;
   line-height: 24px;
-  color: #444;
+  /* color: #444; */
   word-spacing: 5px;
-  /* color: white; */
+  color: white;
   text-align: start;
 }
 
@@ -93,14 +93,14 @@
   border: none;
   border-radius: 12px;
   color: black;
-  background-color: #d9e1ed;
-  ;
-  /* background-color: #d8e6fb; */
-  /* background-color: black;; */
+  background-color:transparent;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.328);
-  /* box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.286); */
   transition: transform 3.3s ease, box-shadow 0.3s ease;
 
+}
+
+.mission-card p{
+  color:white;
 }
 /* 
 .mission-card:hover {
@@ -141,7 +141,7 @@
 }
 
 .closing-statement {
-  color: #5188eae6;
+  color:#7d0dff;;
   font-size: 1.5rem;
 }
 

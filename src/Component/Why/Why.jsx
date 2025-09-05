@@ -25,7 +25,7 @@ function Why() {
         {/* <div className=''> */}
         <div className="col-lg-6 col-sm-12 whyColumn icons ">
           <RightAnim direction='horizontal' reverse={false} ease="bounce.easeIn">
-            <div className="imgIcon">
+            <div className="whyimgIcon">
               {/* <img src={firstintro} alt='intro'></img> */}
                <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload" />
             </div>

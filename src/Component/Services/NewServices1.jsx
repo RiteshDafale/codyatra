@@ -12,7 +12,7 @@ function NewServices1() {
   return (
     <div className="mainDiv ">
       <div className='mainHeading'>
-        <h1 className="text-center ">Our Services</h1>
+        <h1 className="text-center  ">Our Services</h1>
       </div>
       {/* First Row */}
       <div className="row firstrow ">
