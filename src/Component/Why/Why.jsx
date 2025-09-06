@@ -1,10 +1,8 @@
 import React, { useState, version } from 'react'
 import './Why.css'
 import { useNavigate } from 'react-router-dom';
-import icon2 from '../Why/icons/icon3.jpeg';
 // import firstintro from '../Why/icons/intro.mp4'
 import firstintro from '../Why/icons/intro1.mp4'
-import ScrollFloatText from '../ScrollFloatText';
 import RightAnim from '../AnimatePara/RigthAnimation';
 
 
@@ -38,18 +36,17 @@ function Why() {
                 How can <span className='fw-bolder' style={{ color: "" }}>Codyatra </span> help your business grow?
               </h2>
               <div className="container ans ">
-                <p className='border-dark'>
+                <p className='border-dark open-sans-ans'>
                   In today’s crowded digital space, businesses are not just looking for services — they’re looking for real partners, people who understand their goals, respect their vision, and go beyond the usual to create lasting impact.
                 </p>
-                <div className='WhyheadPara '>
-                  <p className='border-dark headpara1   para'>
+                <div className='WhyheadPara  '>
+                  <p className='border-dark  open-sans-ans'>
                     That’s exactly what <span className='fw-bold'>Codyatra </span> stands for.
                   </p>
 
-                  <p className='headpara1  '>We’re not here to sell you vanity metrics or empty promises.</p>
-                  <p className=' headpara1'>We’re here to build, support, and grow — <span className='fw-bold'>together </span>.</p>
+                  <p className='open-sans-ans'>We’re not here to sell you vanity metrics or empty promises.</p>
+                  <p className='open-sans-ans'>We’re here to build, support, and grow — <span className='fw-bold'>together </span>.</p>
                 </div>
-
               </div>
             </RightAnim>
           </div>
