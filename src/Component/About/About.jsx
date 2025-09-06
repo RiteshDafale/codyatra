@@ -16,10 +16,10 @@ function About() {
         <section className="about-mission mb-5">
           <div className="card mission-card p-4">
              <h3 className="section-heading">Our Mission</h3>
-            <p>
+            <p className='roboto-p'>
               We’re not just another digital agency. We’re a <span className="fw-bold">mission-driven team</span> of creatives, strategists, and developers who believe in doing things differently—with <span className="fw-bold">purpose, honesty, and real impact</span>.
             </p>
-            <p>
+            <p className='roboto-p'>
               <span className="codyatra-brand">Codyatra</span> was born to help startups, small businesses, and personal brands <span className="fw-bold">grow with digital clarity</span>, without the confusion of jargon or empty promises. In a world of copy-paste marketing and automated solutions, we stand for <span className="fw-bold">depth, personalization, and lasting value</span>.
             </p>
           </div>

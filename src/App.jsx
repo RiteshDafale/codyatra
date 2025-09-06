@@ -13,7 +13,7 @@ const Dashboard = React.lazy(()=> import('./Component/Dashboard/Dashboard'));
 const FreeTools = React.lazy(()=> import ('./Component/FreeTools/FreeTools')) ;
 const Contact = React.lazy(()=> import('./Component/Contact/Contact.JSX'));
 import { ToastContainer } from 'react-toastify';
-import DarkVeil from './Component/BackFragment';
+
 
 // import DarkVeil from './Component/BackFragment';
 

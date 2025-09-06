@@ -12,7 +12,7 @@ function NewServices1() {
   return (
     <div className="mainDiv ">
       <div className='mainHeading'>
-        <h1 className="text-center  ">Our Services</h1>
+        <h1 className="text-center poppins-semiboldServiceMain text-dark  ">Our Services</h1>
       </div>
       {/* First Row */}
       <div className="row firstrow ">
@@ -22,8 +22,8 @@ function NewServices1() {
             <div className="img">
               <img src={web} alt="Website Development" className="img-fluid" />
             </div>
-            <div className="heading mt-2 ">
-              <h5 className="text-center subheading ">Website &amp; App Development</h5>
+            <div className=" mt-2 ">
+              <h5 className="poppins-semiboldService text-center text-dark ">Website &amp; App Development</h5>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ function NewServices1() {
               />
             </div>
             <div className="heading  w-100 text-center mt-2">
-              <h5 className="subheading">Digital Marketing &amp; Advertising</h5>
+              <h5 className="poppins-semiboldService text-dark">Digital Marketing &amp; Advertising</h5>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ function NewServices1() {
                 />
               </div>
               <div className="heading_social ">
-                <h5 className="text-center subheading">Social Media Management </h5>
+                <h5 className="poppins-semiboldService text-dark">Social Media Management </h5>
               </div>
             </div>
         </div>
@@ -71,8 +71,8 @@ function NewServices1() {
             <div className="img">
               <img src={photography} alt="Website Development" className="img-fluid" />
             </div>
-            <div className="heading w-100 p-2">
-              <h5 className="text-center subheading">Video &amp; Photography (On Request / City-Specific)</h5>
+            <div className=" w-100 p-2 text-center">
+              <h5 className="poppins-semiboldService text-dark">Video &amp; Photography </h5>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ function NewServices1() {
                 />
               </div>
               <div className="heading  w-100 text-center p-2">
-                <h5 className="subheading">Strategy &amp; Consulting</h5>
+                <h5 className="poppins-semiboldService text-dark">Strategy &amp; Consulting</h5>
               </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ function NewServices1() {
                 />
               </div>
               <div className="heading_social ">
-                <h5 className="text-center subheading">Freebies &amp; Entry Services </h5>
+                <h5 className="poppins-semiboldService text-dark">Freebies &amp; Entry Services </h5>
               </div>
           </div>
         </div>
