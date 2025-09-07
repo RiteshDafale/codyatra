@@ -15,7 +15,7 @@ function About() {
       <main className="about-content container my-5">
         <section className="about-mission mb-5">
           <div className="card mission-card p-4">
-             <h3 className="section-heading">Our Mission</h3>
+             <h3 className="poppins-semiboldServiceMain text-center">Our Mission</h3>
             <p className='roboto-p'>
               We’re not just another digital agency. We’re a <span className="fw-bold">mission-driven team</span> of creatives, strategists, and developers who believe in doing things differently—with <span className="fw-bold">purpose, honesty, and real impact</span>.
             </p>
@@ -27,14 +27,14 @@ function About() {
 
         <section className="mission-card about-story my-5 ">
           <div className="card mission-card p-4">
-            <h3 className="section-heading">Why We Started</h3>
-            <p>
+            <h3 className="poppins-semiboldServiceMain text-center">Why We Started</h3>
+            <p className='roboto-p'>
               We saw a common problem: businesses spending money on digital services without understanding what they were getting, or worse, getting no results at all. Too many agencies offered overpriced, cookie-cutter solutions with zero personal involvement.
             </p>
-            <p>
+            <p className='roboto-p'>
               So, we decided to create <span className="fw-bold">Something Better, Something Real, Something that Actually Cares</span>.
             </p>
-            <p className="">
+            <p className='roboto-p'>
               That’s how <span className="codyatra-brand">Codyatra</span> began—a journey (<span className="fw-bold">"Yatra"</span>) to bring clarity, creativity, and strategy back to the digital lives of modern businesses.
             </p>
           </div>
@@ -43,28 +43,28 @@ function About() {
 
         <section className="about-services mb-5">
           <div className="card mission-card p-4">
-            <h3 className="section-heading">What We Do</h3>
+            <h3 className="poppins-semiboldServiceMain text-center">What We Do</h3>
             <div className="services-list">
-              <p>We help you:</p>
+              <p className='roboto-p'>We help you:</p>
               <ul className="list-group list-group-flush aboutul  ">
-                <li className="list-group-item">
+                <li className="list-group-item  roboto-p">
                   <span className="fw-bold">Build beautiful, functional websites</span> that convert visitors into customers.
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item roboto-p">
                   <span className="fw-bold">Create engaging content</span> (posts, reels, stories) that speaks your customer’s language.
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item roboto-p">
                   <span className="fw-bold">Run ads</span> that generate actual leads, not just likes.
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item roboto-p">
                   <span className="fw-bold">Develop a brand</span> that people trust and remember.
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item roboto-p">
                   <span className="fw-bold">Turn your digital presence into real business growth.</span>
                 </li>
               </ul>
             </div>
-            <p className="services-promise mt-4">
+            <p className="services-promise mt-4 roboto-p">
               We offer everything from website & app development to SEO, digital marketing, and branding—all under one roof. But more importantly, we offer a <span className="fw-bold">genuine partnership</span> that grows with you. We don’t just take orders; we help you make smart, strategic decisions.
             </p>
           </div>
@@ -74,19 +74,19 @@ function About() {
 
         <section className="about-new mb-5 text-center">
           <div className="card mission-card p-4">
-            <h3 className="section-heading">We’re New—And Proud of It.</h3>
-            <p>
+            <h3 className="poppins-semiboldServiceMain text-center">We’re New—And Proud of It.</h3>
+            <p className='roboto-p'>
               We’re honest about who we are. We're a young agency with a big vision and even bigger commitment.
             </p>
             <div className="new-advantages">
-              <p className="fw-bold">Being new m/eans we're:</p>
+              <p className="text-secondary roboto-p">Being new m/eans we're:</p>
               <ul className="list-group list-group-flush aboutul">
                 <li className="list-group-item text-start">More energetic and involved.</li>
                 <li className="list-group-item text-start">More flexible and adaptive.</li>
                 <li className="list-group-item text-start">More hungry to <span className="fw-bold">prove our worth</span>.</li>
               </ul>
             </div>
-            <p className="new-promise">
+            <p className="new-promise roboto-p">
               We don’t believe in shortcuts. We believe in <span className="fw-bold">showing up every day, doing the hard work</span>, and building our name—one successful project at a time. Your success is <span className="fw-bold">our reputation</span>.
             </p>
           </div>
@@ -96,7 +96,7 @@ function About() {
 
         <section className="about-who-we-work-with mb-5">
           <div className="card mission-card p-4">
-            <h3 className="section-heading">Who We Work With</h3>
+            <h3 className="poppins-semiboldServiceMain text-center">Who We Work With</h3>
             <p>We're the perfect fit for:</p>
             <ul className="list-group list-group-flush aboutul">
               <li className="list-group-item">Startup founders & entrepreneurs.</li>
@@ -113,11 +113,11 @@ function About() {
 
         <section className="about-closing mb-5 text-center">
           <div className="card mission-card p-4">
-            <h3 className="section-heading">Let's Build Something Meaningful</h3>
+            <h3 className="poppins-semiboldServiceMain text-center">Let's Build Something Meaningful</h3>
             <p>We don’t want to be the biggest agency. We want to be <span className="fw-bold">your favorite</span>. The one you trust. The one you rely on. The one you recommend.</p>
             <p>We’re in this for the <span className="fw-bold">long game</span>. If you’re serious about building a brand that matters and working with people who <span className="fw-bold">genuinely care</span>, then you're in the right place.</p>
                  </div>
-            <h5 className="closing-statement fw-bolder mt-4">
+            <h5 className="poppins-semiboldServiceMain fw-bolder text-decoration-underline mt-4">
               This is <span className="codyatra-brand">Codyatra</span>. The digital journey begins here. We can’t wait to walk it with you.
             </h5>
      

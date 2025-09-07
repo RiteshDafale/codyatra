@@ -166,12 +166,12 @@ function Pricing() {
 
       <div className="container Form-mainDiv ">
 
-        <h2 className='text-center'>Get the Best Deal – Request a Callback!</h2>
-        <p className='text-center'>Want to negotiate the price? Just fill out the form, and we’ll contact you to discuss how we can make it work.</p>
+        <h2 className='text-center poppins-semibold '>Get the Best Deal – Request a Callback!</h2>
+        <p className='text-center roboto-p'>Want to negotiate the price? Just fill out the form, and we’ll contact you to discuss how we can make it work.</p>
         <div className="container Form-subDiv" >
           <form>
             <div class="mb-3 inputDiv">
-              <input type="Name" placeholder='Enter your name' id="Name" class="form-control " aria-describedby="name"
+              <input type="Name" placeholder='Enter your name' id="Name" class="form-control roboto-p " aria-describedby="name"
                 onChange={(e) => {
                   setName(e.target.value);
                   setEnquiryDetails({
@@ -182,7 +182,7 @@ function Pricing() {
               />
             </div>
             <div class="mb-3 inputDiv">
-              <input type="Name" placeholder='Enter your Phone Number' class="form-control " id="phone" aria-describedby="phone"
+              <input type="Name" placeholder='Enter your Phone Number' class="form-control roboto-p" id="phone" aria-describedby="phone"
                 onChange={(e) => {
                   setPhone(e.target.value)
                   setEnquiryDetails({
@@ -195,7 +195,7 @@ function Pricing() {
               />
             </div>
             <div class="mb-3 inputDiv">
-              <input type="Name" placeholder='Enter your Email' class="form-control " id="email" aria-describedby="emailHelp"
+              <input type="Name" placeholder='Enter your Email' class="form-control roboto-p" id="email" aria-describedby="emailHelp"
                 onChange={(e) => {
                   setEmail(e.target.value);
                   setEnquiryDetails({
@@ -207,7 +207,7 @@ function Pricing() {
               />
             </div>
             <div class="mb-3 inputDiv">
-              <input type="Name" placeholder='Enter your City' class="form-control " id="city" aria-describedby="city"
+              <input type="Name" placeholder='Enter your City' class="form-control roboto-p" id="city" aria-describedby="city"
                 onChange={(e) => {
                   setCity(e.target.value);
                   setEnquiryDetails({
@@ -222,15 +222,15 @@ function Pricing() {
               <select class="form-select" aria-label="Default select example"
                 onChange={handleSelectChange}
                 name="budget">
-                <option disabled selected>Marketing Budget</option>
-                <option value="50k to 1 Lakh">20k to 50k</option>
-                <option value="1 Lakh to 2 Lakh">50k to 1 Lakh</option>
-                <option value="2 Lakh to 3 Lakh">1 Lakh to 3 Lakh</option>
-                <option value="3 Lakh and above">3 Lakh and above</option>
+                <option className='roboto-p' disabled selected>Marketing Budget</option>
+                <option className='roboto-p' value="50k to 1 Lakh">20k to 50k</option>
+                <option className='roboto-p' value="1 Lakh to 2 Lakh">50k to 1 Lakh</option>
+                <option className='roboto-p' value="2 Lakh to 3 Lakh">1 Lakh to 3 Lakh</option>
+                <option className='roboto-p' value="3 Lakh and above">3 Lakh and above</option>
               </select>
             </div>
             <div className=' text-center'>
-              <button type="submit" class="btn btn-primary" onClick={handleRequest}>Submit</button>
+              <button type="submit" class="btn btn-primary roboto-p" onClick={handleRequest}>Submit</button>
             </div>
           </form>
         </div>

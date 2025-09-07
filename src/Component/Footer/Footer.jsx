@@ -9,7 +9,7 @@ function Footer() {
       <div className="row  w-full">
         <div className="col-lg-4 col-sm-12 footercolumn firstcol d-flex flex-column justify-content-center align-items-center">
           <div className="text text-start  px-2 mt-2">
-            <p>
+            <p className='roboto-p'>
               <span className='fw-bolder' style={{ color: "#5188eae6" }}>CODYATRA </span>was born with a clear <span className='fw-bold'>vision:</span> To help startups, small businesses,
               personal brands, and local entrepreneurs grow with digital clarity—without
               falling into the trap of fake promises or confusing jargon.
@@ -21,12 +21,12 @@ function Footer() {
             <h3 className='text-center mt-2'>Services</h3>
             <div className="list">
               <ul>
-                <li>Website & App Development</li>
-                <li>Digital Marketing & Advertising</li>
-                <li>Social Media Management</li>
-                <li>Video & Photography (On Request / City-Specific)</li>
-                <li>Strategy & Consulting </li>
-                <li>Freebies & Entry Services </li>
+                <li className='roboto-p'>Website & App Development</li>
+                <li className='roboto-p'>Digital Marketing & Advertising</li>
+                <li className='roboto-p'>Social Media Management</li>
+                <li className='roboto-p'>Video & Photography</li>
+                <li className='roboto-p'>Strategy & Consulting </li>
+                <li className='roboto-p'>Freebies & Entry Services </li>
               </ul>
             </div>
           </div>

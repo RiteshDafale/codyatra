@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-p {
+   font-family: "Roboto", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+      "wdth" 87.5;
+}
+
 .footer {
    /* height: 43vh; */
 
-     height: auto;
-  /* padding: 30px 0; */
-  background-color: #111;
-  color: #fff;
- 
+   height: auto;
+   /* padding: 30px 0; */
+   background-color: #111;
+   color: #fff;
+
 }
 
 .footercolumn {
@@ -14,38 +25,56 @@
    border: 2px solid white; */
    width: 33.3% !important;
    /* border:2px solid white; */
-    /* border: 1px solid rgba(255, 255, 255, 0.2); */
-  margin-bottom: 20px;
-  min-height: 250px;
+   /* border: 1px solid rgba(255, 255, 255, 0.2); */
+   margin-bottom: 20px;
+   min-height: 250px;
 }
 
-.footercolumn p , .footercolumn ul li {
+.footercolumn p,
+.footercolumn ul li {
    font-size: 19px;
 }
 
-.link{
-   width:100% !important;
+.link {
+   width: 100% !important;
 }
 
-.link ul li p{
+.link ul li p {
    margin-bottom: 0;
-   color:white;
+   color: white;
 }
+
 .link li {
    list-style: none;
 }
-.link ul li p a{
+
+.link ul li p a {
    /* margin-bottom: 0; */
-   color:white;
+   color: white;
    text-decoration: none;
 }
-.link ul li p a:hover{
+
+.link ul li p a:hover {
    /* margin-bottom: 0; */
-   color:rgba(255, 255, 255, 0.37);
+   color: rgba(255, 255, 255, 0.37);
    text-decoration: underline;
-   
+
 }
-.servicesCotnent{
+.list ul li , .text p{
+   list-style: none;
+   color:white;
+}
+
+.list ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   /* background-color: yellow; */
+   text-align: start;
+}
+
+.servicesCotnent {
    /* background-color: red; */
    height: 100%;
 }
@@ -71,27 +100,28 @@
 }
 
 
-.instagram{
+.instagram {
    /* background-color: red;; */
 }
 
-.insticon{
-   font-size: 34px;;
+.insticon {
+   font-size: 34px;
+   ;
 
 }
 
 
-.insticon:hover{
+.insticon:hover {
    cursor: pointer;
    /* transform:  */
 }
 
 
-@media (min-width:320px) and (max-width: 600px){
+@media (min-width:320px) and (max-width: 600px) {
    .footercolumn {
       width: 100% !important;
       height: 100%;
       /* border: 2px solid white; */
-       /* background-color: aqua; */
+      /* background-color: aqua; */
    }
 }
