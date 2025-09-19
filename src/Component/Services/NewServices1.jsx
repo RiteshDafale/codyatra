@@ -1,11 +1,11 @@
 import React from 'react';
 // import './Services.css';
 import './NewService.css';
-import web from './ServicePhotos/Webdevelopment.png';
-import DigitalMarketting from './ServicePhotos/DigitalMarketting.png';
-import socialMedia from './ServicePhotos/socialMedia.png';
-import photography from './ServicePhotos/photography.png';
-import strategy from './ServicePhotos/strategy.png';
+import web from './ServicePhotos/Webdevelopment.jpg';
+import DigitalMarketting from './ServicePhotos/DigitalMarketting.jpg';
+import socialMedia from './ServicePhotos/socialMedia.jpg';
+import photography from './ServicePhotos/photography.jpg';
+import strategy from './ServicePhotos/strategy.jpg';
 import free from './ServicePhotos/freeServices.png';
 
 function NewServices1() {
@@ -53,7 +53,6 @@ function NewServices1() {
                   src={socialMedia}
                   alt="Social Media Management"
                   className="img-fluid socialimg"
-                  style={{width:"100% !important", height:"100% !important"}}
                 />
               </div>
               <div className="heading_social ">

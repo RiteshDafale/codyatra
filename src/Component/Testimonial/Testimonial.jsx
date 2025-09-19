@@ -14,7 +14,7 @@ const Testimonial = () => {
     return (
         <div className='testmonialMainDiv' >
         
-            <h1 className='text-center testimonial-heading '> Testimonials</h1>
+            <h1 className='text-center poppins-semibold text-dark mb-3 '> Testimonials</h1>
             <div className="video-section">
                 <div className="testmonialcolumn">
                     <div className="video">

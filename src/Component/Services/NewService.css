@@ -11,8 +11,6 @@
   font-style: normal;
 }
 
-
-
 .servicecolumn {
     width: 33.3% !important;
     /* width: 100% !important; */
@@ -33,18 +31,21 @@
     /* background-color: aquamarine; */
 }
 
-.mainHeading h1{
-    /* color:#8822ff; */
-}
 
 img {
     width: 27vw;
 }
 
-.socialimg {
-    /* margin-left: 9vh; */
+.social{
+    background-color: aqua;
+    width:2vw;
 }
 
+.social img{
+
+    width: 100%;
+    height:100%;
+}
 .heading_social {
     margin-top: 13px;
 }

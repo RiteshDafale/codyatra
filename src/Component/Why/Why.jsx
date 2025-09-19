@@ -1,11 +1,9 @@
 import React, { useState, version } from 'react'
 import './Why.css'
 import { useNavigate } from 'react-router-dom';
-// import firstintro from '../Why/icons/intro.mp4'
-import firstintro from '../Why/icons/intro1.mp4'
+import firstintro from '../Why/icons/intro.mp4'
+// import firstintro from '../Why/icons/intro1.mp4'
 import RightAnim from '../AnimatePara/RigthAnimation';
-
-
 
 function Why() {
 
@@ -15,12 +13,12 @@ function Why() {
     <div className="why-mainDiv mTop " >
       <div className="row ">
         {/* <div className=''> */}
-        <div className="col-lg-6 col-sm-12 whyColumn icons ">
-          {/* <RightAnim direction='horizontal' reverse={false} ease="bounce.easeIn"> */}
-            {/* <div className="whyimgIcon">
+        <div className="col-lg-6 col-sm-12 whyColumn icons ">    
+           <RightAnim direction='horizontal' reverse={false}>     
+             <div className="whyimgIcon ">
                <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload" />
-            </div> */}
-          {/* </RightAnim> */}
+            </div>
+            </RightAnim>
         </div>
         <div className='col-lg-6 col-sm-12 whyColumn   why_subDiv '>
           <div className="whytextContent">
@@ -44,8 +42,6 @@ function Why() {
             </RightAnim>
           </div>
         </div>
-
-        {/* </div> */}
       </div>
     </div>
   )

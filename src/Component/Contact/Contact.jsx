@@ -10,7 +10,7 @@ function Contact() {
     <div>
       {/* Main Container */}
       <div className="contactMainDiv">
-        <h1>Contact Us</h1>
+        <h2 className='text-dark poppins-semibold'>Contact Us</h2>
       </div>
 
       {/* Contact Details */}
@@ -19,7 +19,7 @@ function Contact() {
           <div className="col-lg-4 contactCol mainemail p-3">
             <div className="email">
               <i className="fa-solid fa-phone"></i>
-              <p className='px-4'>9405689914</p>
+              <p className='px-4 roboto-p'>9405689914</p>
               <button className="contactBtn">Email Us</button>
             </div>
           </div>
@@ -28,8 +28,8 @@ function Contact() {
           <div className="col-lg-4 contactCol mainemail p-3">
             <div className="email">
               <i className="fa-solid fa-envelope"></i>
-              <p>codyatra@gmail.com</p>
-              <button className="contactBtn">Email Us</button>
+              <p className='roboto-p'>codyatra@gmail.com</p>
+              <button className="contactBtn roboto-p">Email Us</button>
             </div>
           </div>
 
@@ -37,8 +37,8 @@ function Contact() {
           <div className="col-lg-4 contactCol mainlocation p-3">
             <div className="location">
               <i className="fa-solid fa-location-dot"></i>
-              <p>Nagpur Maharashtra</p>
-              <button className="contactBtn">Get Directions</button>
+              <p className='roboto-p'>Nagpur Maharashtra</p>
+              <button className="contactBtn roboto-p">Get Directions</button>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ function Contact() {
           <h1>Contact Form </h1>
           <form>
             <div className="mb-3 contactinputDiv">
-              <input type="Name" placeholder='Enter your name' id="Name" className="" aria-describedby="name"
+              <input type="Name" placeholder='Enter your name' id="Name" className="roboto-p" aria-describedby="name"
                 onChange={(e) => {
                   // setName(e.target.value);
                   // setEnquiryDetails({
@@ -58,7 +58,7 @@ function Contact() {
               />
             </div>
             <div className="mb-3 contactinputDiv">
-              <input type="Name" placeholder='Enter your Phone Number' className="form-control " id="phone" aria-describedby="phone"
+              <input type="Name" placeholder='Enter your Phone Number' className="form-control roboto-p" id="phone" aria-describedby="phone"
                 onChange={(e) => {
                   // setPhone(e.target.value)
                   // setEnquiryDetails({
@@ -71,7 +71,7 @@ function Contact() {
               />
             </div>
             <div className="mb-3 contactinputDiv">
-              <input type="Name" placeholder='Enter your Email' className="form-control " id="email" aria-describedby="emailHelp"
+              <input type="Name" placeholder='Enter your Email' className="form-control roboto-p " id="email" aria-describedby="emailHelp"
                 onChange={(e) => {
                   // setEmail(e.target.value);
                   // setEnquiryDetails({
@@ -83,7 +83,7 @@ function Contact() {
               />
             </div>
             <div className="mb-3 contactinputDiv">
-              <input type="Name" placeholder='Enter your City' className="form-control " id="city" aria-describedby="city"
+              <input type="Name" placeholder='Enter your City' className="form-control roboto-p " id="city" aria-describedby="city"
                 onChange={(e) => {
                   // setCity(e.target.value);
                   // setEnquiryDetails({
@@ -96,7 +96,7 @@ function Contact() {
             </div>
            
             <div className=' text-center'>
-              <button type="submit" className="btn btn-primary" >Submit</button>
+              <button type="submit" className="btn btn-primary roboto-p" >Submit</button>
             </div>
           </form>
         </div>
