@@ -21,9 +21,6 @@
     color: black;
 }
 
-.font {
-    /* font-family:j; */
-}
 
 .whyColumn {
     width: 50% !important;
@@ -147,41 +144,49 @@ ol li {
 
 
 @media (min-width:320px) and (max-width: 600px) {
-    .whyimgIcon {
+    .why-mainDiv  {
         /* width: 37vw; */
-        height: 51vh;
+        /* height: 51vh; */
         /* margin-top: 70px; */
-        margin-left: 16px;
+        /* margin-left: 16px; */
+        height: auto;
+        display: block;
+        padding: 20px 10px;
+        overflow-x: hidden;
     }
 
     .row {
-        margin-left: -1px;
-        /* background-color: black;; */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .whyColumn {
-        width: 100% !important;
-        /* border: 2px solid pink; */
+       width: 100% !important;
+    margin: 0 auto;
     }
 
-    .why_subDiv {
-        /* background-color: red; */
-        margin-top: 0;
-        width: 100%;
-    }
+    .whyimgIcon {
+    width: 100%;
+    max-width: 350px; /* keeps video in bounds */
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .whyimgIcon video {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+  }
 
     .whytextContent {
-        margin-top: 0;
-        ;
+        margin-top: 20px;
+    padding: 0 12px;
+    text-align: center;
     }
 
-    .why-mainDiv {
-        width: 100%;
-        height: auto;
-        display: block;
-        /* margin-top: 21px; */
-        /* background-color: cornsilk; */
-    }
+
 
 
     .why_subDiv {
@@ -193,9 +198,16 @@ ol li {
         align-items: center;
     }
 
-    .ans {
-        text-align: center;
-    }
+   .ans {
+    text-align: justify;
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .headWhy {
+    font-size: 22px;
+    line-height: 30px;
+  }
 
     .WhyheadPara {
         line-height: 22px;
