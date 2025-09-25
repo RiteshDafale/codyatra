@@ -154,6 +154,11 @@ ol li {
         margin-left: 16px;
     }
 
+    .row {
+        margin-left: -1px;
+        /* background-color: black;; */
+    }
+
     .whyColumn {
         width: 100% !important;
         /* border: 2px solid pink; */
@@ -174,7 +179,7 @@ ol li {
         width: 100%;
         height: auto;
         display: block;
-        margin-top: 21px;
+        /* margin-top: 21px; */
         /* background-color: cornsilk; */
     }
 
@@ -186,6 +191,15 @@ ol li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .ans {
+        text-align: center;
+    }
+
+    .WhyheadPara {
+        line-height: 22px;
+        text-align: justify;
     }
 
     .headpara1 {
