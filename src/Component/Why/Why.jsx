@@ -22,11 +22,11 @@ function Why() {
           )}
           <RightAnim direction='horizontal' reverse={false}>
             <div className="whyimgIcon ">
-              {/* <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload"
+              <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload"
                onLoadedData={()=>{
                 setisLoading(true);
                }}
-              /> */}
+              />
             </div>
           </RightAnim>
         </div>
