@@ -94,7 +94,7 @@ function NewServices1() {
 
         {/* Third Column */}
         <div className="col-lg-3  col-sm-12 servicecolumn  d-flex flex-column justify-content-center align-items-center   ">
-            <div className="third d-flex flex-column justify-content-center align-items-center socialDiv ">
+            <div className="third d-flex flex-column justify-content-center align-items-center socialDiv social ">
               <div className="img  " >
                 <img
                   src={free}
