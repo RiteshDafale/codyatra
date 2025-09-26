@@ -1,8 +1,11 @@
 import React, { useState, version } from 'react'
+import { ClipLoader } from 'react-spinners';
 import './Why.css'
 import { useNavigate } from 'react-router-dom';
+import { CSSProperties } from 'react';
 import firstintro from '../Why/icons/intro.mp4'
 // import firstintro from '../Why/icons/intro1.mp4'
+import {OrbitProgress} from 'react-loading-indicators';
 import RightAnim from '../AnimatePara/RigthAnimation';
 
 function Why() {
@@ -10,23 +13,29 @@ function Why() {
   const navigate = useNavigate();
   const [isopen, setIsopen] = useState(false);
   const [isvideoLoading, setisvideoLoading] = useState(false);
+  const [color, setcolor] = useState("#ffffff");
+
+
+
   return (
     <div className="why-mainDiv mTop " >
       <div className="row ">
         {/* <div aclassName=''> */}
         <div className="col-lg-6 col-sm-12 whyColumn icons ">
           {!isvideoLoading && (
-            <div>
-              <p>Loading .... </p>
+            <div className='spinner'> 
+        <OrbitProgress color={["#000000", "#000000", "#0b0c0b", "#232723"]}
+          
+          />
             </div>
           )}
           <RightAnim direction='horizontal' reverse={false}>
             <div className="whyimgIcon ">
               <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload"
-               onLoadedData={()=>{
-                setisvideoLoading(true);
-              }}
-              style={{ display: setisvideoLoading ? 'block' : 'none' }}
+                onLoadedData={() => {
+                  setisvideoLoading(true);
+                }}
+                style={{ display: isvideoLoading ? 'block' : 'none' }}
               />
             </div>
           </RightAnim>
