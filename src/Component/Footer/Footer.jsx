@@ -10,7 +10,7 @@ function Footer() {
         <div className="col-lg-4 col-sm-12 footercolumn firstcol d-flex flex-column justify-content-center align-items-center">
           <div className="text text-start  px-2 mt-2">
             <p className='roboto-p'>
-              <span className='fw-bolder' style={{ color: "#5188eae6" }}>CODYATRA </span>was born with a clear <span className='fw-bold'>vision:</span> To help startups, small businesses,
+              <span className='fw-bolder'>CODYATRA </span>was born with a clear <span className='fw-bold'>vision:</span> To help startups, small businesses,
               personal brands, and local entrepreneurs grow with digital clarity—without
               falling into the trap of fake promises or confusing jargon.
             </p>

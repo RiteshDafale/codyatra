@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import '../OurServices/OurServices.css';
-// import webIcon from '../OurServices/Icons/web.png';
+import webIcon from '../OurServices/Icons/web.gif';
 import checkmark from '../OurServices/Icons/checkmark.png';
-import marketingIcon from '../OurServices/Icons/Digital_marketing1.png';
-import socialMediaIcon from '../OurServices/Icons/social-media.png';
-import videoIcon from '../OurServices/Icons/video.png';
+import marketingIcon from '../OurServices/Icons/Digital_marketing.gif';
+import socialMediaIcon from '../OurServices/Icons/social-media.gif';
+import videoIcon from '../OurServices/Icons/video.gif';
 import strategyIcon from '../OurServices/Icons/strategy.gif';
-import freebiesIcon from '../OurServices/Icons/free.png';
+import freebiesIcon from '../OurServices/Icons/free.gif';
 import ScrollFloatText from '../OurServices/ScrollFloatText';
 
 function OurServices() {
@@ -24,6 +24,7 @@ function OurServices() {
                 <div className="serviceHeader">
                   <div className="webIcon">
                     {/* <img src={webIcon} alt="Web Development" /> */}
+                       <img src={webIcon} alt="Web Development" />
                   </div>
                   <div className="serviceTitle">
                     <h3 className='Poppins-subhead'>Website & App Development</h3>
