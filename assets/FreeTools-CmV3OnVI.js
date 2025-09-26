@@ -1,0 +1,1 @@
+import{r as t,j as e}from"./index-BQ9qc85p.js";function o(){return t.useState(()=>{document.title="Free Tools - Codyatra"}),e.jsx("div",{children:e.jsx("div",{style:{height:"100vh"},children:e.jsx("h3",{className:"text-danger text-center my-4",children:"Free tools are Comming soon ---  under Maintainance"})})})}export{o as default};
