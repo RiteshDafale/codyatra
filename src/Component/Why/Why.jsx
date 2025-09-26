@@ -9,13 +9,13 @@ function Why() {
 
   const navigate = useNavigate();
   const [isopen, setIsopen] = useState(false);
-  const [isLoading, setisLoading] = useState(false);
+  const [isvideoLoading, setisvideoLoading] = useState(false);
   return (
     <div className="why-mainDiv mTop " >
       <div className="row ">
         {/* <div aclassName=''> */}
         <div className="col-lg-6 col-sm-12 whyColumn icons ">
-          {!isLoading && (
+          {!isvideoLoading && (
             <div>
               <p>Loading .... </p>
             </div>
@@ -24,8 +24,9 @@ function Why() {
             <div className="whyimgIcon ">
               <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload"
                onLoadedData={()=>{
-                setisLoading(true);
-               }}
+                setisvideoLoading(true);
+              }}
+              style={{ display: setisvideoLoading ? 'block' : 'none' }}
               />
             </div>
           </RightAnim>
