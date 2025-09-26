@@ -24,7 +24,7 @@ function OurServices() {
                 <div className="serviceHeader">
                   <div className="webIcon">
                     {/* <img src={webIcon} alt="Web Development" /> */}
-                       <img src={webIcon} alt="Web Development" />
+                       <img loading='lazy' src={webIcon} alt="Web Development" />
                   </div>
                   <div className="serviceTitle">
                     <h3 className='Poppins-subhead'>Website & App Development</h3>
@@ -49,7 +49,7 @@ function OurServices() {
             <div className=" serviceSection">
               <div className="serviceHeader">
                 <div className="socialIcon">
-                  <img src={socialMediaIcon} alt="Web Development" />
+                  <img loading='lazy' src={socialMediaIcon} alt="Web Development" />
 
                 </div>
                 <div className="serviceTitle">
@@ -80,7 +80,7 @@ function OurServices() {
               <div className=" serviceSection">
                 <div className="serviceHeader">
                   <div className="videoIcon">
-                    <img src={videoIcon} alt="Web Development" />
+                    <img loading='lazy' src={videoIcon} alt="Web Development" />
                   </div>
                   <div className="serviceTitle">
                     <h3 className='Poppins-subhead'>Video & Photography (On Request / City-Specific</h3>
@@ -101,7 +101,7 @@ function OurServices() {
             <div className=" serviceSection">
               <div className="serviceHeader">
                 <div className="strategyIcon">
-                  <img src={marketingIcon} alt="Web Development" />
+                  <img loading='lazy' src={marketingIcon} alt="Web Development" />
 
                 </div>
                 <div className="serviceTitle">
@@ -127,7 +127,7 @@ function OurServices() {
               <div className=" serviceSection">
                 <div className="serviceHeader">
                   <div className="videoIcon">
-                    <img src={freebiesIcon} alt="Web Development" />
+                    <img loading='lazy' src={freebiesIcon} alt="Web Development" />
                   </div>
                   <div className="serviceTitle">
                     <h3 className='Poppins-subhead'>Freebies & Entry Services (Great for First-Time Clients)</h3>
@@ -148,7 +148,7 @@ function OurServices() {
             <div className=" serviceSection">
               <div className="serviceHeader">
                 <div className="strategyIcon">
-                  <img src={strategyIcon} alt="Web Development" />
+                  <img loading='lazy' src={strategyIcon} alt="Web Development" />
 
                 </div>
                 <div className="serviceTitle">
@@ -167,8 +167,6 @@ function OurServices() {
           </div>
           </div>
         </div>
-
-
       </div>
     </div>
   )
