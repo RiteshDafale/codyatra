@@ -119,12 +119,13 @@ width:100%;
 }
 
 .Contact-Form {
-  background-color: rgba(135, 173, 241, 0.15);
+  /* background-color: rgba(135, 173, 241, 0.15); */
   /* subtle transparent blue */
-   border: 7px dashed #8822ff;
+   /* border: 7px dashed #8822ff; */
   border-radius: 15px;
   padding: 40px 30px;
-  margin-top: 40px;
+  margin-top: 60px;
+  margin-bottom: 23px;;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,10 +133,10 @@ width:100%;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   /* Glassmorphism effect */
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-  color: white;
+  /* color: white; */
 }
 
 /* Form Heading */
@@ -164,9 +165,9 @@ width:100%;
   border-radius: 30px;
   font-size: 18px;
   padding: 0 20px;
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid black;
   /* background: transparent; */
-  color: white;
+  color: black;
   transition: all 0.3s ease-in-out;
 }
 
@@ -182,8 +183,16 @@ width:100%;
   /* border-color: white; */
   color: black;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.42);
+  /* background-color: rgba(255, 255, 255, 0.42); */
   cursor: progress;
+}
+.contactinputDiv input:hover{
+  cursor: pointer;
+}
+
+.contactinputDiv input:focus{
+  cursor:text;
+  border:2px solid black;
 }
 
 /* Submit Button */

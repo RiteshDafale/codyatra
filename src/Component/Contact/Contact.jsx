@@ -9,7 +9,7 @@ function Contact() {
   return (
     <div>
       {/* Main Container */}
-      <div className="contactMainDiv">
+      <div className="container contactMainDiv">
         <h2 className='text-dark poppins-semibold'>Contact Us</h2>
       </div>
 
@@ -20,7 +20,7 @@ function Contact() {
             <div className="email">
               <i className="fa-solid fa-phone"></i>
               <p className='px-4 roboto-p'>9405689914</p>
-              <button className="contactBtn">Email Us</button>
+              <button className="contactBtn">Contact us</button>
             </div>
           </div>
 
