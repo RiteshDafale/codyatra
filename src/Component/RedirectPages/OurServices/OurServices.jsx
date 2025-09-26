@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../OurServices/OurServices.css';
 import webIcon from '../OurServices/Icons/web.gif';
 import checkmark from '../OurServices/Icons/checkmark.png';
@@ -13,6 +13,8 @@ function OurServices() {
   useEffect(() => {
     document.title = "Services - Codyatra";
   }, []);
+
+  const [isServiceLoading,setisServiceLoading] = useState(true);
   return (
     <div>
       <div className="container-fluid  ServiceMaindiv">
@@ -24,7 +26,16 @@ function OurServices() {
                 <div className="serviceHeader">
                   <div className="webIcon">
                     {/* <img src={webIcon} alt="Web Development" /> */}
-                       <img loading='lazy' src={webIcon} alt="Web Development" />
+                    {isServiceLoading && (
+                      <div>
+                        <p>Loading ....</p>
+                      </div>
+                    )}
+                       <img loading='lazy' src={webIcon} alt="Web Development" 
+                       onLoad={()=> setisServiceLoading(true)}
+                       style={{display:isServiceLoading?'none' :'block'}}
+                       
+                       />
                   </div>
                   <div className="serviceTitle">
                     <h3 className='Poppins-subhead'>Website & App Development</h3>

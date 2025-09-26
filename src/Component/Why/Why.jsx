@@ -22,14 +22,15 @@ function Why() {
       <div className="row ">
         {/* <div aclassName=''> */}
         <div className="col-lg-6 col-sm-12 whyColumn icons ">
-          {!isvideoLoading && (
+          
+          <RightAnim direction='horizontal' reverse={false}>
+            {!isvideoLoading && (
             <div className='spinner'> 
         <OrbitProgress color={["#000000", "#000000", "#0b0c0b", "#232723"]}
           
           />
             </div>
           )}
-          <RightAnim direction='horizontal' reverse={false}>
             <div className="whyimgIcon ">
               <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload"
                 onLoadedData={() => {
