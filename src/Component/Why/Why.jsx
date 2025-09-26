@@ -9,16 +9,26 @@ function Why() {
 
   const navigate = useNavigate();
   const [isopen, setIsopen] = useState(false);
+  const [isLoading, setisLoading] = useState(false);
   return (
     <div className="why-mainDiv mTop " >
       <div className="row ">
-        {/* <div className=''> */}
-        <div className="col-lg-6 col-sm-12 whyColumn icons ">    
-           <RightAnim direction='horizontal' reverse={false}>     
-             <div className="whyimgIcon ">
-               <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload" />
+        {/* <div aclassName=''> */}
+        <div className="col-lg-6 col-sm-12 whyColumn icons ">
+          {!isLoading && (
+            <div>
+              <p>Loading .... </p>
             </div>
-            </RightAnim>
+          )}
+          <RightAnim direction='horizontal' reverse={false}>
+            <div className="whyimgIcon ">
+              {/* <video src={firstintro} className="video-player" autoPlay muted loop controlsList="nodownload"
+               onLoadedData={()=>{
+                setisLoading(true);
+               }}
+              /> */}
+            </div>
+          </RightAnim>
         </div>
         <div className='col-lg-6 col-sm-12 whyColumn   why_subDiv '>
           <div className="whytextContent">
