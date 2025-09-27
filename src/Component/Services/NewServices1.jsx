@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import './Services.css';
 import './NewService.css';
 import web from './ServicePhotos/Webdevelopment.jpg';
@@ -9,6 +9,18 @@ import strategy from './ServicePhotos/strategy.jpg';
 import free from './ServicePhotos/freeServices.png';
 
 function NewServices1() {
+  
+   const [isImageLoading , setisImageLoading] = useState(true);
+    
+   useState(()=>{
+
+     const timer = setInterval(() => {
+        setisImageLoading(false);
+     }, 15000);
+
+     return ()=> clearTimeout(timer);
+   },[])
+    
   return (
     <div className="mainDiv ">
       <div className='mainHeading'>
@@ -20,7 +32,17 @@ function NewServices1() {
         <div className="col-lg-3 col-sm-12 first servicecolumn ">
           <div className="firstcontent d-flex flex-column justify-content-center align-items-center  ">
             <div className="img">
-              <img src={web} alt="Website Development" className="img-fluid" />
+              {isImageLoading && (
+                <div>
+                  <p>Loading ....</p>
+                </div>
+              )}
+              <img src={web} alt="Website Development" className="img-fluid"
+              onLoad={()=> setisImageLoading(false)}
+              style={{display :'block'}} 
+              
+              />
+              
             </div>
             <div className=" mt-2 ">
               <h5 className="poppins-semiboldService text-center text-dark ">Website &amp; App Development</h5>

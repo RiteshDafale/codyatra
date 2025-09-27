@@ -26,16 +26,7 @@ function OurServices() {
                 <div className="serviceHeader">
                   <div className="webIcon">
                     {/* <img src={webIcon} alt="Web Development" /> */}
-                    {isServiceLoading && (
-                      <div>
-                        <p>Loading ....</p>
-                      </div>
-                    )}
-                       <img loading='lazy' src={webIcon} alt="Web Development" 
-                       onLoad={()=> setisServiceLoading(true)}
-                       style={{display:isServiceLoading?'none' :'block'}}
-                       
-                       />
+                       <img loading='lazy' src={webIcon} alt="Web Development"  />
                   </div>
                   <div className="serviceTitle">
                     <h3 className='Poppins-subhead'>Website & App Development</h3>
