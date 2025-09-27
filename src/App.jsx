@@ -20,16 +20,16 @@ import { ToastContainer } from 'react-toastify';
 
 
 function App() {
- 
-   useEffect(()=>{
-  
-     const {hash} = window.location;
-     console.log("hash = ",hash);
-     if(!hash || hash === '#/' || hash === ''){
-window.location.replace=("/codyatra/#/codyatra")
-     }
-   },[])
-   
+
+  useEffect(() => {
+
+    const { hash } = window.location;
+    console.log("hash = ", hash);
+    if (!hash || hash === '#/' || hash === '') {
+      window.location.replace('/codyatra/#/codyatra');
+    }
+  }, [])
+
 
   return (
     <div className='mainBackgroundColor' style={{ color: "white" }}>
