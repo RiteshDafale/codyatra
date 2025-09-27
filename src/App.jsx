@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React, { Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Component/Home/Home'
 import Navigation from './Component/Header/Navigation'
@@ -20,7 +20,17 @@ import { ToastContainer } from 'react-toastify';
 
 
 function App() {
-  // background-color: rgb(25 48 96);
+ 
+   useEffect(()=>{
+  
+     const {hash} = window.location;
+     console.log("hash = ",hash);
+     if(!hash || hash === '#/' || hash === ''){
+window.location.replace=("/codyatra/#/codyatra")
+     }
+   },[])
+   
+
   return (
     <div className='mainBackgroundColor' style={{ color: "white" }}>
 
