@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {Routes, Route } from 'react-router-dom'
 import Home from './Component/Home/Home'
 import Navigation from './Component/Header/Navigation'
 import './App.css'
@@ -14,20 +14,15 @@ const FreeTools = React.lazy(() => import('./Component/FreeTools/FreeTools'));
 const Contact = React.lazy(() => import('./Component/Contact/Contact.JSX'));
 import { ToastContainer } from 'react-toastify';
 
-
-// import DarkVeil from './Component/BackFragment';
-
-
-
 function App() {
 
   useEffect(() => {
 
-    const { hash } = window.location;
-    console.log("hash = ", hash);
-    if (!hash || hash === '#/' || hash === '') {
-      window.location.replace('/codyatra/#/codyatra');
-    }
+    // const { hash } = window.location;
+    // console.log("hash = ", hash);
+    // if (!hash || hash === '#/' || hash === '') {
+    //   window.location.replace('/codyatra/#/codyatra');
+    // }
   }, [])
 
 
