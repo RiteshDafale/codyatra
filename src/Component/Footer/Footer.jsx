@@ -16,9 +16,9 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="col-lg-4 col-sm-12 footercolumn d-flex flex-column justify-content-center align-items-center ">
-          <div className="servicesCotnent my-2">
-            <h3 className='text-center mt-2'>Services</h3>
+        <div className="col-lg-4 col-sm-12 footercolumn d-flex flex-column justify-content-center align-items-center mt-3 ">
+          <div className="container-fluid servicesCotnent my-2">
+            <h4 className='text-center mt-2'>Services</h4>
             <div className="list">
               <ul>
                 <li className='roboto-p'>Website & App Development</li>
@@ -33,7 +33,7 @@ function Footer() {
         </div>
        
         <div className="col-lg-4 col-sm-12 footercolumn d-flex justify-content-center align-items-center flex-column ">
-          <h3>Social Media </h3>
+          <h4>Social Media </h4>
           <div className=' d-flex '>
           <div className="instagram">
             <i class="fa-brands fa-instagram insticon " title='Instagram'
@@ -59,6 +59,9 @@ function Footer() {
           </div>
           </div>
         </div>
+      </div>
+      <div className="container-fluid w-full d-flex justify-content-center align-items-center" style={{borderTop:"2px solid white"}}>
+     <p className='roboto-p mt-2'>  © 2025 Codyatra. All rights reserved.</p>
       </div>
     </div>
   )

@@ -32,7 +32,7 @@
 
 .footercolumn p,
 .footercolumn ul li {
-   font-size: 19px;
+   font-size: 18px;
 }
 
 .link {
@@ -60,18 +60,19 @@
    text-decoration: underline;
 
 }
-.list ul li , .text p{
+
+.list ul li,
+.text p {
    list-style: none;
-   color:white;
+   color: white;
 }
 
 .list ul {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   /* align-items: center; */
-   /* background-color: yellow; */
    text-align: start;
+   line-height: 30px;
 }
 
 .servicesCotnent {
