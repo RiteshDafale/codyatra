@@ -7,6 +7,7 @@ import firstintro from '../Why/icons/intro.mp4'
 // import firstintro from '../Why/icons/intro1.mp4'
 import {OrbitProgress} from 'react-loading-indicators';
 import RightAnim from '../AnimatePara/RigthAnimation';
+import SplitText from '../AnimatePara/SplitText';
 
 function Why() {
 
@@ -43,10 +44,26 @@ function Why() {
         </div>
         <div className='col-lg-6 col-sm-12 whyColumn   why_subDiv '>
           <div className="whytextContent">
-            <RightAnim direction='horizontal' reverse={true}>
-              <h1 className='text-center headWhy   poppins-semibold'>
+            {/* <RightAnim direction='horizontal' reverse={true}> */}
+              {/* <h1 className='text-center headWhy   poppins-semibold'>
                 How can <span className='' style={{ color: "" }}>Codyatra </span> help your business grow?
-              </h1>
+              </h1> */}
+
+             <SplitText
+          tag="h1"
+          className="text-center headWhy poppins-semibold"
+          text="How can Codyatra help your business grow?"
+          delay={80}
+          duration={1}
+          splitType="chars"
+          from={{ opacity: 0, y: 40 }}
+          to={{ opacity: 1, y: 0 }}
+          threshold={0.1}
+          rootMargin="-100px"
+          onLetterAnimationComplete={() => {
+            console.log('Heading animation done');
+          }}
+        />
               <div className="container ans">
                 <p className='border-dark roboto-p  '>
                   In today’s crowded digital space, businesses are not just looking for services — they’re looking for real partners, people who understand their goals, respect their vision, and go beyond the usual to create lasting impact.
@@ -60,7 +77,7 @@ function Why() {
                   <p className=' roboto-p '>We’re here to build, support, and grow — <span className='fw-bold'>together </span>.</p>
                 </div>
               </div>
-            </RightAnim>
+            {/* </RightAnim> */}
           </div>
         </div>
       </div>
