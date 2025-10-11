@@ -32,11 +32,11 @@
 
 
 .spinner {
-  position: absolute;
-  top: 50%;
-  /* left: 50%; */
-  transform: translate(-50%, -50%);
-  z-index: 10;
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    z-index: 10;
 }
 
 .ans {
@@ -153,7 +153,7 @@ ol li {
 
 
 @media (min-width:320px) and (max-width: 600px) {
-    .why-mainDiv  {
+    .why-mainDiv {
         /* width: 37vw; */
         /* height: 51vh; */
         /* margin-top: 70px; */
@@ -172,27 +172,28 @@ ol li {
     }
 
     .whyColumn {
-       width: 100% !important;
-    margin: 0 auto;
+        width: 100% !important;
+        margin: 0 auto;
     }
 
     .whyimgIcon {
-    width: 100%;
-    max-width: 350px; /* keeps video in bounds */
-    height: auto;
-    margin: 20px auto;
-  }
+        width: 100%;
+        max-width: 350px;
+        /* keeps video in bounds */
+        height: auto;
+        margin: 20px auto;
+    }
 
-  .whyimgIcon video {
-    width: 100%;
-    height: auto;
-    border-radius: 16px;
-  }
+    .whyimgIcon video {
+        width: 118vw;
+        height: auto;
+        border-radius: 16px;
+    }
 
     .whytextContent {
         margin-top: 20px;
-    padding: 0 12px;
-    text-align: center;
+        padding: 0 12px;
+        text-align: center;
     }
 
 
@@ -207,16 +208,16 @@ ol li {
         align-items: center;
     }
 
-   .ans {
-    text-align: justify;
-    line-height: 22px;
-    font-size: 16px;
-  }
+    .ans {
+        text-align: justify;
+        line-height: 22px;
+        font-size: 16px;
+    }
 
-  .headWhy {
-    font-size: 22px;
-    line-height: 30px;
-  }
+    .headWhy {
+        font-size: 22px;
+        line-height: 30px;
+    }
 
     .WhyheadPara {
         line-height: 22px;
